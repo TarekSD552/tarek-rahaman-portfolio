@@ -1,0 +1,76 @@
+{
+  "sessions": [
+    {
+      "sessionId": "tr_s_5ob8xty5csb",
+      "visitorId": "tr_v_nabuskr3fpei",
+      "firstSeen": "2026-11-12T11:39:33.944Z",
+      "lastSeen": "2026-11-12T12:31:51.588Z",
+      "date": "2026-11-12",
+      "deviceType": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "referrer": "",
+      "trafficSource": "Direct",
+      "totalDurationSeconds": 208,
+      "maxScrollDepth": 100,
+      "engagementScore": 87,
+      "pageViewsCount": 4,
+      "pagesVisited": [
+        {
+          "path": "/",
+          "pageTitle": "Tarek Rahaman | Creative Web Developer & Full-Stack Architect",
+          "durationSeconds": 208,
+          "maxScrollDepth": 100,
+          "viewCount": 5,
+          "lastViewedAt": "2026-11-12T12:31:51.588Z"
+        }
+      ]
+    },
+    {
+      "sessionId": "tr_s_3yvv4eoe8k6",
+      "visitorId": "tr_v_nabuskr3fpei",
+      "firstSeen": "2026-11-12T11:39:04.195Z",
+      "lastSeen": "2026-11-12T11:39:04.625Z",
+      "date": "2026-11-12",
+      "deviceType": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "referrer": "",
+      "trafficSource": "Direct",
+      "totalDurationSeconds": 21,
+      "maxScrollDepth": 49,
+      "engagementScore": 36,
+      "pageViewsCount": 0,
+      "pagesVisited": [
+        {
+          "path": "/",
+          "pageTitle": "Admin Portal | Tarek Rahaman | Tarek Rahaman",
+          "durationSeconds": 21,
+          "maxScrollDepth": 49,
+          "viewCount": 1,
+          "lastViewedAt": "2026-11-12T11:39:04.625Z"
+        }
+      ]
+    }
+  ],
+  "pageStats": {
+    "/": {
+      "totalViews": 4,
+      "totalDurationSeconds": 229,
+      "totalScrollDepth": 1064,
+      "scrollCount": 35
+    }
+  },
+  "dailyStats": {
+    "2026-11-12": {
+      "visitors": [
+        "tr_v_nabuskr3fpei"
+      ],
+      "pageViews": 4,
+      "totalDurationSeconds": 229
+    }
+  },
+  "allTimeVisitorIds": [
+    "tr_v_nabuskr3fpei"
+  ]
+}

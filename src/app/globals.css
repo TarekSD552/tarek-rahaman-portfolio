@@ -1,0 +1,1183 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #050811;
+    --bg-secondary: #080d1a;
+    --bg-card: rgba(9, 15, 29, 0.85);
+    --bg-card-hover: rgba(12, 20, 41, 0.95);
+    --bg-input: #070b16;
+    --border-subtle: rgba(0, 210, 255, 0.15);
+    --border-glow: rgba(0, 210, 255, 0.45);
+    --border-card: rgba(0, 210, 255, 0.22);
+    --accent-cyan: #00d2ff;
+    --accent-blue: #0088ff;
+    --accent-neon: #00f0ff;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --text-accent: #00d2ff;
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html.light,
+  html[data-theme="light"] {
+    --bg-primary: #f8fafc;
+    --bg-secondary: #f1f5f9;
+    --bg-card: #ffffff;
+    --bg-card-hover: #ffffff;
+    --bg-input: #ffffff;
+    --border-subtle: #cbd5e1;
+    --border-glow: rgba(2, 132, 199, 0.35);
+    --border-card: #e2e8f0;
+    --accent-cyan: #0284c7;
+    --accent-blue: #0369a1;
+    --accent-neon: #0ea5e9;
+    --text-primary: #0f172a;
+    --text-secondary: #1e293b;
+    --text-muted: #475569;
+    --text-accent: #0284c7;
+    --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+    color-scheme: light;
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+
+  html.light body,
+  html[data-theme="light"] body {
+    background-color: #f8fafc !important;
+    color: #0f172a !important;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    color-scheme: dark;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    background-color: #050811;
+    color: #f8fafc;
+    overflow-x: hidden;
+    max-width: 100vw;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    background: #00d2ff;
+    color: #050811;
+  }
+
+  /* Lenis Smooth Scrolling */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  /* Custom Luxury Scrollbar with Cyan Thumb */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #050811;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0d1e38;
+    border-radius: 9999px;
+    border: 1px solid rgba(0, 210, 255, 0.25);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00d2ff;
+    box-shadow: 0 0 10px #00d2ff;
+  }
+
+  /* Thin, sleek modern chat scrollbar with smooth wheel interaction */
+  .chat-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 210, 255, 0.25) transparent;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden !important;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 0px !important;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar:horizontal {
+    display: none !important;
+    height: 0px !important;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(0, 210, 255, 0.22);
+    border-radius: 9999px;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 210, 255, 0.55);
+  }
+}
+
+/* Card Styling inspired by screenshot */
+.dark-cyan-card {
+  background: rgba(9, 15, 29, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 210, 255, 0.12);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark-cyan-card:hover {
+  border-color: rgba(0, 210, 255, 0.45);
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px -10px rgba(0, 180, 255, 0.2), 0 0 20px 0 rgba(0, 210, 255, 0.1);
+}
+
+/* Cyan Glowing Gradient Text */
+.text-cyan-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #a5f3fc 40%, #00d2ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Circular Conic Gradient Border for Hero Profile */
+.avatar-conic-glow {
+  background: conic-gradient(from 180deg, #00d2ff, #38bdf8, #818cf8, #c084fc, #00d2ff);
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Wave Divider Styling */
+.wave-glow {
+  filter: drop-shadow(0 0 12px rgba(0, 150, 255, 0.6)) drop-shadow(0 0 25px rgba(0, 210, 255, 0.3));
+}
+
+
+/* Animated Cyber Butterfly Wing Gliding & Flapping (3D Perspective) */
+@keyframes bfWingFlapLeft {
+  0%, 100% {
+    transform: rotateY(0deg) rotateZ(0deg) scaleX(1);
+  }
+  50% {
+    transform: rotateY(55deg) rotateZ(3deg) scaleX(0.48);
+  }
+}
+
+@keyframes bfWingFlapRight {
+  0%, 100% {
+    transform: rotateY(0deg) rotateZ(0deg) scaleX(1);
+  }
+  50% {
+    transform: rotateY(-55deg) rotateZ(-3deg) scaleX(0.48);
+  }
+}
+
+@keyframes bfWingFlapFastLeft {
+  0%, 100% {
+    transform: rotateY(0deg) rotateZ(0deg) scaleX(1);
+  }
+  50% {
+    transform: rotateY(72deg) rotateZ(6deg) scaleX(0.26);
+  }
+}
+
+@keyframes bfWingFlapFastRight {
+  0%, 100% {
+    transform: rotateY(0deg) rotateZ(0deg) scaleX(1);
+  }
+  50% {
+    transform: rotateY(-72deg) rotateZ(-6deg) scaleX(0.26);
+  }
+}
+
+.bf-butterfly-wrapper {
+  perspective: 600px;
+  transform-style: preserve-3d;
+}
+
+.bf-wing-left {
+  transform-origin: 30px 26px;
+  animation: bfWingFlapLeft 1.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.bf-wing-right {
+  transform-origin: 30px 26px;
+  animation: bfWingFlapRight 1.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Flapping when active / moving */
+.bf-fluttering .bf-wing-left {
+  animation: bfWingFlapFastLeft 0.32s ease-in-out infinite;
+}
+
+.bf-fluttering .bf-wing-right {
+  animation: bfWingFlapFastRight 0.32s ease-in-out infinite;
+}
+
+/* Ultra fast flutter on click burst */
+.bf-burst .bf-wing-left {
+  animation: bfWingFlapFastLeft 0.12s ease-in-out infinite;
+}
+
+.bf-burst .bf-wing-right {
+  animation: bfWingFlapFastRight 0.12s ease-in-out infinite;
+}
+
+/* Multi-tone animated neon glow: Purple, Pink, Cyan, Blue */
+@keyframes bfNeonAura {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.85))
+            drop-shadow(0 0 10px rgba(168, 85, 247, 0.6))
+            drop-shadow(0 0 16px rgba(236, 72, 153, 0.35));
+  }
+  33% {
+    filter: drop-shadow(0 0 5px rgba(236, 72, 153, 0.9))
+            drop-shadow(0 0 11px rgba(192, 132, 252, 0.65))
+            drop-shadow(0 0 16px rgba(0, 210, 255, 0.35));
+  }
+  66% {
+    filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.9))
+            drop-shadow(0 0 11px rgba(56, 189, 248, 0.65))
+            drop-shadow(0 0 16px rgba(236, 72, 153, 0.4));
+  }
+  100% {
+    filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.85))
+            drop-shadow(0 0 10px rgba(168, 85, 247, 0.6))
+            drop-shadow(0 0 16px rgba(236, 72, 153, 0.35));
+  }
+}
+
+.bf-glow-effect {
+  animation: bfNeonAura 6s ease-in-out infinite;
+  will-change: filter, transform;
+  transform: translateZ(0);
+}
+
+/* Atmospheric Smoke & Fog Drifting Animations */
+@keyframes smokeDriftOne {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.65;
+  }
+  50% {
+    transform: translate(30px, -18px) scale(1.08);
+    opacity: 0.88;
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.65;
+  }
+}
+
+@keyframes smokeDriftTwo {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-35px, 22px) scale(1.12);
+    opacity: 0.78;
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.5;
+  }
+}
+
+@keyframes smokePulse {
+  0%, 100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.06);
+  }
+}
+
+.animate-smoke-slow {
+  animation: smokeDriftOne 22s ease-in-out infinite;
+}
+
+.animate-smoke-reverse {
+  animation: smokeDriftTwo 28s ease-in-out infinite;
+}
+
+.animate-smoke-pulse {
+  animation: smokePulse 16s ease-in-out infinite;
+}
+
+/* Continuous Seamless Looping Cloud Animations (No jumps, no abrupt stops) */
+@keyframes cloudContinuousA {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1.05);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translate3d(28px, -14px, 0) scale(1.1);
+    opacity: 0.98;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.05);
+    opacity: 0.85;
+  }
+}
+
+@keyframes cloudContinuousB {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1.1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translate3d(-32px, 18px, 0) scale(1.18);
+    opacity: 0.78;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.1);
+    opacity: 0.55;
+  }
+}
+
+@keyframes cloudContinuousC {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1.06);
+    opacity: 0.45;
+  }
+  50% {
+    transform: translate3d(16px, 14px, 0) scale(1.12);
+    opacity: 0.65;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.06);
+    opacity: 0.45;
+  }
+}
+
+.animate-cloud-drift-1 {
+  animation: cloudContinuousA 24s ease-in-out infinite;
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+.animate-cloud-drift-2 {
+  animation: cloudContinuousB 34s ease-in-out infinite;
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+.animate-cloud-drift-3 {
+  animation: cloudContinuousC 42s ease-in-out infinite;
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+/* ========================================================================== */
+/* AI CHAT ASSISTANT WIDGET — PURE FIXED VIEWPORT OVERLAY (ZERO LAYOUT SHIFT) */
+/* ========================================================================== */
+.ai-chat-window-fixed {
+  position: fixed !important;
+  left: 8px;
+  bottom: 62px;
+  z-index: 99999 !important;
+  overscroll-behavior: contain;
+}
+
+@media (min-width: 640px) {
+  .ai-chat-window-fixed {
+    left: 24px;
+    bottom: 84px;
+  }
+}
+
+.ai-chat-trigger-fixed {
+  position: fixed !important;
+  left: 14px;
+  bottom: 16px;
+  z-index: 99990 !important;
+}
+
+@media (min-width: 640px) {
+  .ai-chat-trigger-fixed {
+    left: 24px;
+    bottom: 24px;
+  }
+}
+
+/* ========================================================================== */
+/* SCROLL TO TOP BUTTON — FIXED VIEWPORT OVERLAY (ALWAYS BOTTOM RIGHT)        */
+/* ========================================================================== */
+.scroll-to-top-fixed {
+  position: fixed !important;
+  right: 14px;
+  bottom: 16px;
+  z-index: 99980 !important;
+}
+
+@media (min-width: 640px) {
+  .scroll-to-top-fixed {
+    right: 24px;
+    bottom: 24px;
+  }
+}
+
+.history-preview {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* ========================================================================== */
+/* PREMIUM EYE-CATCHING ATTENTION & HOVER ANIMATIONS                          */
+/* ========================================================================== */
+
+/* Continuous Soft Radar Wave for Floating Action Buttons */
+@keyframes aiRadarWave {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: scale(1.36);
+    opacity: 0;
+  }
+}
+
+.ai-radar-wave {
+  animation: aiRadarWave 3.6s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+  will-change: transform, opacity;
+}
+
+/* Subtle Breathing Glow for Key Highlights (Moments & Milestones, etc.) */
+@keyframes milestoneGlowPulse {
+  0%, 100% {
+    box-shadow: 0 0 16px rgba(0, 210, 255, 0.25), inset 0 0 10px rgba(0, 210, 255, 0.08);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(0, 210, 255, 0.52), inset 0 0 14px rgba(0, 210, 255, 0.18);
+  }
+}
+
+.animate-milestone-glow {
+  animation: milestoneGlowPulse 4s ease-in-out infinite;
+}
+
+/* Respect Accessibility & Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  .ai-radar-wave,
+  .animate-milestone-glow,
+  .animate-cloud-drift-1,
+  .animate-cloud-drift-2,
+  .animate-cloud-drift-3,
+  .bf-wing-left,
+  .bf-wing-right,
+  .bf-glow-effect {
+    animation: none !important;
+  }
+
+  .group:hover,
+  button:hover,
+  a:hover {
+    transform: none !important;
+  }
+}
+
+/* ========================================================================== */
+/* LIGHT MODE COMPREHENSIVE STYLING & CONTRAST ENHANCEMENTS                  */
+/* ========================================================================== */
+
+/* Light mode selection */
+html.light ::selection,
+html[data-theme="light"] ::selection {
+  background: #0284c7;
+  color: #ffffff;
+}
+
+/* Base Body and HTML in Light Mode */
+html.light,
+html[data-theme="light"],
+html.light body,
+html[data-theme="light"] body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 1. Page and Section Dark Background Overrides -> Light Neutral (#f8fafc)   */
+/* -------------------------------------------------------------------------- */
+html.light [class*="bg-[#050811]"],
+html[data-theme="light"] [class*="bg-[#050811]"],
+html.light [class*="bg-[#040711]"],
+html[data-theme="light"] [class*="bg-[#040711]"],
+html.light [class*="bg-[#05070D]"],
+html[data-theme="light"] [class*="bg-[#05070D]"],
+html.light [class*="bg-[#02040a]"],
+html[data-theme="light"] [class*="bg-[#02040a]"],
+html.light [class*="bg-[#02050c]"],
+html[data-theme="light"] [class*="bg-[#02050c]"],
+html.light [class*="bg-[#02050e]"],
+html[data-theme="light"] [class*="bg-[#02050e]"],
+html.light [class*="bg-[#030508]"],
+html[data-theme="light"] [class*="bg-[#030508]"],
+html.light [class*="bg-[#030712]"],
+html[data-theme="light"] [class*="bg-[#030712]"],
+html.light [class*="bg-[#04060a]"],
+html[data-theme="light"] [class*="bg-[#04060a]"],
+html.light [class*="bg-[#04060b]"],
+html[data-theme="light"] [class*="bg-[#04060b]"],
+html.light [class*="bg-[#040813]"],
+html[data-theme="light"] [class*="bg-[#040813]"],
+html.light [class*="bg-[#040814]"],
+html[data-theme="light"] [class*="bg-[#040814]"],
+html.light [class*="bg-[#040815]"],
+html[data-theme="light"] [class*="bg-[#040815]"],
+html.light [class*="bg-[#05080e]"],
+html[data-theme="light"] [class*="bg-[#05080e]"],
+html.light [class*="bg-[#050914]"],
+html[data-theme="light"] [class*="bg-[#050914]"],
+html.light [class*="bg-[#050b18]"],
+html[data-theme="light"] [class*="bg-[#050b18]"] {
+  background-color: #f8fafc !important;
+}
+
+/* Dark Gradients to Light Neutral */
+html.light [class*="from-[#060c1c]"],
+html[data-theme="light"] [class*="from-[#060c1c]"],
+html.light [class*="from-[#0a1226]"],
+html[data-theme="light"] [class*="from-[#0a1226]"],
+html.light [class*="from-[#040813]"],
+html[data-theme="light"] [class*="from-[#040813]"] {
+  background-image: none !important;
+  background-color: #ffffff !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 2. Cards, Panels, Modals & Floating Drawers -> Pure White (#ffffff)        */
+/* -------------------------------------------------------------------------- */
+html.light [class*="bg-[#060a14]"],
+html[data-theme="light"] [class*="bg-[#060a14]"],
+html.light [class*="bg-[#060a15]"],
+html[data-theme="light"] [class*="bg-[#060a15]"],
+html.light [class*="bg-[#060b17]"],
+html[data-theme="light"] [class*="bg-[#060b17]"],
+html.light [class*="bg-[#060b18]"],
+html[data-theme="light"] [class*="bg-[#060b18]"],
+html.light [class*="bg-[#060b19]"],
+html[data-theme="light"] [class*="bg-[#060b19]"],
+html.light [class*="bg-[#060c18]"],
+html[data-theme="light"] [class*="bg-[#060c18]"],
+html.light [class*="bg-[#060c1c]"],
+html[data-theme="light"] [class*="bg-[#060c1c]"],
+html.light [class*="bg-[#060c1d]"],
+html[data-theme="light"] [class*="bg-[#060c1d]"],
+html.light [class*="bg-[#060d1e]"],
+html[data-theme="light"] [class*="bg-[#060d1e]"],
+html.light [class*="bg-[#060e20]"],
+html[data-theme="light"] [class*="bg-[#060e20]"],
+html.light [class*="bg-[#060e22]"],
+html[data-theme="light"] [class*="bg-[#060e22]"],
+html.light [class*="bg-[#061021]"],
+html[data-theme="light"] [class*="bg-[#061021]"],
+html.light [class*="bg-[#07051a]"],
+html[data-theme="light"] [class*="bg-[#07051a]"],
+html.light [class*="bg-[#070b14]"],
+html[data-theme="light"] [class*="bg-[#070b14]"],
+html.light [class*="bg-[#070d18]"],
+html[data-theme="light"] [class*="bg-[#070d18]"],
+html.light [class*="bg-[#070d1d]"],
+html[data-theme="light"] [class*="bg-[#070d1d]"],
+html.light [class*="bg-[#070d1e]"],
+html[data-theme="light"] [class*="bg-[#070d1e]"],
+html.light [class*="bg-[#070e24]"],
+html[data-theme="light"] [class*="bg-[#070e24]"],
+html.light [class*="bg-[#07132a]"],
+html[data-theme="light"] [class*="bg-[#07132a]"],
+html.light [class*="bg-[#071d37]"],
+html[data-theme="light"] [class*="bg-[#071d37]"],
+html.light [class*="bg-[#080d1a]"],
+html[data-theme="light"] [class*="bg-[#080d1a]"],
+html.light [class*="bg-[#080d1d]"],
+html[data-theme="light"] [class*="bg-[#080d1d]"],
+html.light [class*="bg-[#080e1e]"],
+html[data-theme="light"] [class*="bg-[#080e1e]"],
+html.light [class*="bg-[#080e22]"],
+html[data-theme="light"] [class*="bg-[#080e22]"],
+html.light [class*="bg-[#081020]"],
+html[data-theme="light"] [class*="bg-[#081020]"],
+html.light [class*="bg-[#081026]"],
+html[data-theme="light"] [class*="bg-[#081026]"],
+html.light [class*="bg-[#081124]"],
+html[data-theme="light"] [class*="bg-[#081124]"],
+html.light [class*="bg-[#081126]"],
+html[data-theme="light"] [class*="bg-[#081126]"],
+html.light [class*="bg-[#081226]"],
+html[data-theme="light"] [class*="bg-[#081226]"],
+html.light [class*="bg-[#081228]"],
+html[data-theme="light"] [class*="bg-[#081228]"],
+html.light [class*="bg-[#090f1d]"],
+html[data-theme="light"] [class*="bg-[#090f1d]"],
+html.light [class*="bg-[#090f1e]"],
+html[data-theme="light"] [class*="bg-[#090f1e]"],
+html.light [class*="bg-[#090f1f]"],
+html[data-theme="light"] [class*="bg-[#090f1f]"],
+html.light [class*="bg-[#090f20]"],
+html[data-theme="light"] [class*="bg-[#090f20]"],
+html.light [class*="bg-[#091024]"],
+html[data-theme="light"] [class*="bg-[#091024]"],
+html.light [class*="bg-[#091124]"],
+html[data-theme="light"] [class*="bg-[#091124]"],
+html.light [class*="bg-[#091224]"],
+html[data-theme="light"] [class*="bg-[#091224]"],
+html.light [class*="bg-[#091226]"],
+html[data-theme="light"] [class*="bg-[#091226]"],
+html.light [class*="bg-[#091228]"],
+html[data-theme="light"] [class*="bg-[#091228]"],
+html.light [class*="bg-[#09142e]"],
+html[data-theme="light"] [class*="bg-[#09142e]"],
+html.light [class*="bg-[#091530]"],
+html[data-theme="light"] [class*="bg-[#091530]"],
+html.light [class*="bg-[#0a0f1d]"],
+html[data-theme="light"] [class*="bg-[#0a0f1d]"],
+html.light [class*="bg-[#0a0f1e]"],
+html[data-theme="light"] [class*="bg-[#0a0f1e]"],
+html.light [class*="bg-[#0a101f]"],
+html[data-theme="light"] [class*="bg-[#0a101f]"],
+html.light [class*="bg-[#0a1022]"],
+html[data-theme="light"] [class*="bg-[#0a1022]"],
+html.light [class*="bg-[#0a1124]"],
+html[data-theme="light"] [class*="bg-[#0a1124]"],
+html.light [class*="bg-[#0a1224]"],
+html[data-theme="light"] [class*="bg-[#0a1224]"],
+html.light [class*="bg-[#0a1226]"],
+html[data-theme="light"] [class*="bg-[#0a1226]"],
+html.light [class*="bg-[#0a1428]"],
+html[data-theme="light"] [class*="bg-[#0a1428]"],
+html.light [class*="bg-[#0a152e]"],
+html[data-theme="light"] [class*="bg-[#0a152e]"],
+html.light [class*="bg-[#0b1220]"],
+html[data-theme="light"] [class*="bg-[#0b1220]"],
+html.light [class*="bg-[#0b1226]"],
+html[data-theme="light"] [class*="bg-[#0b1226]"],
+html.light [class*="bg-[#0b1328]"],
+html[data-theme="light"] [class*="bg-[#0b1328]"],
+html.light [class*="bg-[#0b1329]"],
+html[data-theme="light"] [class*="bg-[#0b1329]"],
+html.light [class*="bg-[#0b1428]"],
+html[data-theme="light"] [class*="bg-[#0b1428]"],
+html.light [class*="bg-[#0b1528]"],
+html[data-theme="light"] [class*="bg-[#0b1528]"],
+html.light [class*="bg-[#0b173b]"],
+html[data-theme="light"] [class*="bg-[#0b173b]"],
+html.light [class*="bg-[#0b1b3d]"],
+html[data-theme="light"] [class*="bg-[#0b1b3d]"],
+html.light [class*="bg-[#0c0a20]"],
+html[data-theme="light"] [class*="bg-[#0c0a20]"],
+html.light [class*="bg-[#0c1017]"],
+html[data-theme="light"] [class*="bg-[#0c1017]"],
+html.light [class*="bg-[#0c101c]"],
+html[data-theme="light"] [class*="bg-[#0c101c]"],
+html.light [class*="bg-[#0c1222]"],
+html[data-theme="light"] [class*="bg-[#0c1222]"],
+html.light [class*="bg-[#0c1428]"],
+html[data-theme="light"] [class*="bg-[#0c1428]"],
+html.light [class*="bg-[#0c1429]"],
+html[data-theme="light"] [class*="bg-[#0c1429]"],
+html.light [class*="bg-[#0c1630]"],
+html[data-theme="light"] [class*="bg-[#0c1630]"],
+html.light [class*="bg-[#0c1836]"],
+html[data-theme="light"] [class*="bg-[#0c1836]"],
+html.light [class*="bg-[#0d162d]"]:not([class*="h-2"]),
+html[data-theme="light"] [class*="bg-[#0d162d]"]:not([class*="h-2"]),
+html.light [class*="bg-[#0d1730]"],
+html[data-theme="light"] [class*="bg-[#0d1730]"],
+html.light [class*="bg-[#0e1322]"],
+html[data-theme="light"] [class*="bg-[#0e1322]"],
+html.light [class*="bg-[#0e1726]"],
+html[data-theme="light"] [class*="bg-[#0e1726]"],
+html.light [class*="bg-[#100d28]"],
+html[data-theme="light"] [class*="bg-[#100d28]"],
+html.light [class*="bg-[#12151e]"],
+html[data-theme="light"] [class*="bg-[#12151e]"],
+html.light [class*="bg-[#13070b]"],
+html[data-theme="light"] [class*="bg-[#13070b]"],
+html.light [class*="bg-[#152347]"],
+html[data-theme="light"] [class*="bg-[#152347]"],
+html.light [class*="bg-[#171d2e]"],
+html[data-theme="light"] [class*="bg-[#171d2e]"],
+html.light [class*="bg-[#1a1f2b]"],
+html[data-theme="light"] [class*="bg-[#1a1f2b]"],
+html.light [class*="bg-[#1a2130]"],
+html[data-theme="light"] [class*="bg-[#1a2130]"],
+html.light [class*="bg-[#202124]"],
+html[data-theme="light"] [class*="bg-[#202124]"],
+html.light [class*="bg-[#252c3d]"],
+html[data-theme="light"] [class*="bg-[#252c3d]"],
+html.light [class*="bg-[#252f44]"],
+html[data-theme="light"] [class*="bg-[#252f44]"] {
+  background-color: #ffffff !important;
+}
+
+/* Card Hover States */
+html.light [class*="hover:bg-[#0c1429]"]:hover,
+html[data-theme="light"] [class*="hover:bg-[#0c1429]"]:hover,
+html.light [class*="hover:bg-[#0c1630]"]:hover,
+html[data-theme="light"] [class*="hover:bg-[#0c1630]"]:hover {
+  background-color: #ffffff !important;
+  border-color: rgba(2, 132, 199, 0.45) !important;
+  box-shadow: 0 10px 25px -4px rgba(2, 132, 199, 0.12), 0 0 16px rgba(2, 132, 199, 0.06) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 3. Typography & Text Contrast Overrides                                    */
+/* -------------------------------------------------------------------------- */
+
+/* Headings in Light Mode */
+html.light h1:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html[data-theme="light"] h1:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html.light h2:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html[data-theme="light"] h2:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html.light h3:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html[data-theme="light"] h3:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html.light h4:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html[data-theme="light"] h4:not([class*="text-transparent"]):not([class*="bg-clip-text"]),
+html.light h5,
+html[data-theme="light"] h5,
+html.light h6,
+html[data-theme="light"] h6 {
+  color: #0f172a !important;
+}
+
+/* General text classes (safeguards button texts on gradients/accents) */
+html.light .text-white:not(button):not(button *):not(a[class*="bg-gradient"]):not(a[class*="bg-gradient"] *):not(a[class*="bg-[#00d2ff]"]):not(a[class*="bg-[#00d2ff]"] *):not(.keep-white),
+html[data-theme="light"] .text-white:not(button):not(button *):not(a[class*="bg-gradient"]):not(a[class*="bg-gradient"] *):not(a[class*="bg-[#00d2ff]"]):not(a[class*="bg-[#00d2ff]"] *):not(.keep-white) {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-100,
+html[data-theme="light"] .text-slate-100,
+html.light .text-slate-200,
+html[data-theme="light"] .text-slate-200 {
+  color: #1e293b !important;
+}
+
+html.light .text-slate-300,
+html[data-theme="light"] .text-slate-300 {
+  color: #334155 !important;
+}
+
+html.light .text-slate-400,
+html[data-theme="light"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+html.light .text-slate-500,
+html[data-theme="light"] .text-slate-500,
+html.light .text-slate-600,
+html[data-theme="light"] .text-slate-600 {
+  color: #64748b !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 4. Cyan & Neon Accent Contrast on Light Backgrounds                        */
+/* -------------------------------------------------------------------------- */
+html.light .text-\[\#00d2ff\],
+html[data-theme="light"] .text-\[\#00d2ff\],
+html.light [class*="text-[#00d2ff]"]:not(button[class*="bg-gradient"]):not(button[class*="bg-gradient"] *),
+html[data-theme="light"] [class*="text-[#00d2ff]"]:not(button[class*="bg-gradient"]):not(button[class*="bg-gradient"] *),
+html.light .text-\[\#00f0ff\],
+html[data-theme="light"] .text-\[\#00f0ff\],
+html.light [class*="text-[#00f0ff]"],
+html[data-theme="light"] [class*="text-[#00f0ff]"] {
+  color: #0284c7 !important;
+}
+
+/* Hover cyan text */
+html.light .hover\:text-\[\#00d2ff\]:hover,
+html[data-theme="light"] .hover\:text-\[\#00d2ff\]:hover,
+html.light .group:hover .group-hover\:text-\[\#00d2ff\],
+html[data-theme="light"] .group:hover .group-hover\:text-\[\#00d2ff\],
+html.light .group:hover .group-hover\:text-white,
+html[data-theme="light"] .group:hover .group-hover\:text-white {
+  color: #0284c7 !important;
+}
+
+/* Cyan accent badges */
+html.light [class*="bg-[#00d2ff]/10"],
+html[data-theme="light"] [class*="bg-[#00d2ff]/10"],
+html.light [class*="bg-[#00d2ff]/15"],
+html[data-theme="light"] [class*="bg-[#00d2ff]/15"],
+html.light [class*="bg-[#00d2ff]/20"],
+html[data-theme="light"] [class*="bg-[#00d2ff]/20"] {
+  background-color: rgba(2, 132, 199, 0.08) !important;
+  border-color: rgba(2, 132, 199, 0.3) !important;
+  color: #0284c7 !important;
+}
+
+/* Gradient Text in Light Mode */
+html.light .text-cyan-gradient,
+html[data-theme="light"] .text-cyan-gradient {
+  background: linear-gradient(135deg, #0f172a 0%, #0369a1 40%, #0284c7 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 5. Borders & Box Shadows in Light Mode                                     */
+/* -------------------------------------------------------------------------- */
+html.light [class*="border-[#00d2ff]/2"],
+html[data-theme="light"] [class*="border-[#00d2ff]/2"],
+html.light [class*="border-[#00d2ff]/3"],
+html[data-theme="light"] [class*="border-[#00d2ff]/3"],
+html.light [class*="border-[#00d2ff]/4"],
+html[data-theme="light"] [class*="border-[#00d2ff]/4"],
+html.light [class*="border-[#00d2ff]/5"],
+html[data-theme="light"] [class*="border-[#00d2ff]/5"],
+html.light .border-white\/5,
+html[data-theme="light"] .border-white\/5,
+html.light .border-white\/10,
+html[data-theme="light"] .border-white\/10,
+html.light .border-white\/15,
+html[data-theme="light"] .border-white\/15,
+html.light .border-white\/20,
+html[data-theme="light"] .border-white\/20,
+html.light .border-white\/\[0\.04\],
+html[data-theme="light"] .border-white\/\[0\.04\],
+html.light .border-white\/\[0\.06\],
+html[data-theme="light"] .border-white\/\[0\.06\],
+html.light .border-white\/\[0\.08\],
+html[data-theme="light"] .border-white\/\[0\.08\],
+html.light .border-white\/\[0\.1\],
+html[data-theme="light"] .border-white\/\[0\.1\],
+html.light .border-white\/\[0\.15\],
+html[data-theme="light"] .border-white\/\[0\.15\],
+html.light .border-slate-800,
+html[data-theme="light"] .border-slate-800,
+html.light .border-slate-700,
+html[data-theme="light"] .border-slate-700 {
+  border-color: rgba(203, 213, 225, 0.8) !important;
+}
+
+/* Card Box Shadows */
+html.light [class*="shadow-[0_10px_30px_rgba(0,0,0"],
+html[data-theme="light"] [class*="shadow-[0_10px_30px_rgba(0,0,0"],
+html.light [class*="shadow-[0_8px_30px_rgba(0,0,0"],
+html[data-theme="light"] [class*="shadow-[0_8px_30px_rgba(0,0,0"],
+html.light [class*="shadow-[0_12px_36px_rgba(0,0,0"],
+html[data-theme="light"] [class*="shadow-[0_12px_36px_rgba(0,0,0"],
+html.light [class*="shadow-[0_15px_40px_rgba(0,0,0"],
+html[data-theme="light"] [class*="shadow-[0_15px_40px_rgba(0,0,0"],
+html.light [class*="shadow-[0_20px_50px_rgba(0,0,0"],
+html[data-theme="light"] [class*="shadow-[0_20px_50px_rgba(0,0,0"],
+html.light [class*="shadow-[0_20px_60px_rgba(0,0,0"],
+html[data-theme="light"] [class*="shadow-[0_20px_60px_rgba(0,0,0"],
+html.light .shadow-2xl,
+html[data-theme="light"] .shadow-2xl {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.02) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 6. Form Inputs & Textareas in Light Mode                                    */
+/* -------------------------------------------------------------------------- */
+html.light input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+html[data-theme="light"] input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+html.light textarea,
+html[data-theme="light"] textarea,
+html.light select,
+html[data-theme="light"] select {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light input::placeholder,
+html[data-theme="light"] input::placeholder,
+html.light textarea::placeholder,
+html[data-theme="light"] textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html.light input:focus,
+html[data-theme="light"] input:focus,
+html.light textarea:focus,
+html[data-theme="light"] textarea:focus {
+  border-color: #0284c7 !important;
+  box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.2) !important;
+  outline: none !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 7. Buttons & Micro-Interactions in Light Mode                              */
+/* -------------------------------------------------------------------------- */
+
+/* Secondary Pill Buttons (e.g. Hero Hire Me, About Connect) */
+html.light [class*="bg-black/60"],
+html[data-theme="light"] [class*="bg-black/60"],
+html.light a[class*="bg-[#091124]"],
+html[data-theme="light"] a[class*="bg-[#091124]"] {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+html.light [class*="bg-black/60"] *,
+html[data-theme="light"] [class*="bg-black/60"] *,
+html.light a[class*="bg-[#091124]"] *,
+html[data-theme="light"] a[class*="bg-[#091124]"] * {
+  color: #0f172a !important;
+}
+
+html.light [class*="bg-black/60"]:hover,
+html[data-theme="light"] [class*="bg-black/60"]:hover,
+html.light a[class*="bg-[#091124]"]:hover,
+html[data-theme="light"] a[class*="bg-[#091124]"]:hover {
+  background-color: #f1f5f9 !important;
+  border-color: #0284c7 !important;
+}
+
+/* Secondary Micro Button Fill */
+html.light .bg-white\/5,
+html[data-theme="light"] .bg-white\/5,
+html.light .bg-white\/10,
+html[data-theme="light"] .bg-white\/10,
+html.light .bg-white\/\[0\.03\],
+html[data-theme="light"] .bg-white\/\[0\.03\],
+html.light .bg-white\/\[0\.04\],
+html[data-theme="light"] .bg-white\/\[0\.04\] {
+  background-color: rgba(241, 245, 249, 0.95) !important;
+  border-color: rgba(203, 213, 225, 0.8) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 8. Skills Page Progress Bars                                               */
+/* -------------------------------------------------------------------------- */
+html.light [class*="bg-[#0d162d]"],
+html[data-theme="light"] [class*="bg-[#0d162d]"] {
+  background-color: #e2e8f0 !important;
+  border-color: #cbd5e1 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 9. Navbar, Mobile Menu, and Language Dropdown in Light Mode               */
+/* -------------------------------------------------------------------------- */
+html.light header,
+html[data-theme="light"] header {
+  background-color: rgba(255, 255, 255, 0.94) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-color: rgba(226, 232, 240, 0.9) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04) !important;
+}
+
+html.light header a,
+html[data-theme="light"] header a {
+  color: #334155;
+}
+
+html.light header a:hover,
+html[data-theme="light"] header a:hover {
+  color: #0284c7;
+}
+
+/* Mobile Menu Drawer in Light Mode */
+html.light .lg\:hidden[class*="bg-[#05070D]"],
+html[data-theme="light"] .lg\:hidden[class*="bg-[#05070D]"] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+html.light .lg\:hidden nav a,
+html[data-theme="light"] .lg\:hidden nav a {
+  color: #334155 !important;
+}
+
+/* Language Dropdown in Light Mode */
+html.light [role="listbox"][class*="bg-[#080d1a]"],
+html[data-theme="light"] [role="listbox"][class*="bg-[#080d1a]"] {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+html.light [role="listbox"] button,
+html[data-theme="light"] [role="listbox"] button {
+  color: #334155 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 10. Footer in Light Mode                                                   */
+/* -------------------------------------------------------------------------- */
+html.light footer,
+html[data-theme="light"] footer {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light footer p,
+html[data-theme="light"] footer p {
+  color: #475569 !important;
+}
+
+html.light footer h4,
+html[data-theme="light"] footer h4 {
+  color: #0f172a !important;
+}
+
+html.light footer a:not([class*="bg-[#0a1022]"]):not([class*="bg-gradient"]),
+html[data-theme="light"] footer a:not([class*="bg-[#0a1022]"]):not([class*="bg-gradient"]) {
+  color: #475569 !important;
+}
+
+html.light footer a:hover,
+html[data-theme="light"] footer a:hover {
+  color: #0284c7 !important;
+}
+
+/* Footer Social Icon Buttons */
+html.light footer a[class*="bg-[#0a1022]"],
+html[data-theme="light"] footer a[class*="bg-[#0a1022]"] {
+  background-color: #ffffff !important;
+  color: #334155 !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+html.light footer a[class*="bg-[#0a1022]"]:hover,
+html[data-theme="light"] footer a[class*="bg-[#0a1022]"]:hover {
+  background-color: #0284c7 !important;
+  color: #ffffff !important;
+  border-color: #0284c7 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 11. Chat Assistant Widget & Modal in Light Mode                            */
+/* -------------------------------------------------------------------------- */
+html.light [class*="bg-[#060b18]/95"],
+html[data-theme="light"] [class*="bg-[#060b18]/95"],
+html.light [class*="bg-[#091530]"],
+html[data-theme="light"] [class*="bg-[#091530]"],
+html.light [class*="bg-[#091124]/95"],
+html[data-theme="light"] [class*="bg-[#091124]/95"] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+html.light [class*="bg-[#050914]/90"],
+html[data-theme="light"] [class*="bg-[#050914]/90"] {
+  background-color: rgba(15, 23, 42, 0.45) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 12. Floating Scroll-To-Top Button in Light Mode                            */
+/* -------------------------------------------------------------------------- */
+html.light .scroll-to-top-fixed,
+html[data-theme="light"] .scroll-to-top-fixed {
+  background: #ffffff !important;
+  color: #0284c7 !important;
+  border-color: rgba(2, 132, 199, 0.4) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1), 0 0 15px rgba(2, 132, 199, 0.15) !important;
+}
+
+html.light .scroll-to-top-fixed:hover,
+html[data-theme="light"] .scroll-to-top-fixed:hover {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  border-color: #0284c7 !important;
+  box-shadow: 0 8px 25px rgba(2, 132, 199, 0.4) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 13. Ambient Glow Dampening & Scrollbar in Light Mode                       */
+/* -------------------------------------------------------------------------- */
+html.light [class*="blur-[100px]"],
+html[data-theme="light"] [class*="blur-[100px]"],
+html.light [class*="blur-[110px]"],
+html[data-theme="light"] [class*="blur-[110px]"],
+html.light [class*="blur-[120px]"],
+html[data-theme="light"] [class*="blur-[120px]"],
+html.light [class*="blur-[130px]"],
+html[data-theme="light"] [class*="blur-[130px]"],
+html.light [class*="blur-[140px]"],
+html[data-theme="light"] [class*="blur-[140px]"] {
+  opacity: 0.2 !important;
+}
+
+/* Scrollbar in Light Mode */
+html.light ::-webkit-scrollbar-track,
+html[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+html.light ::-webkit-scrollbar-thumb,
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+  border: 1px solid rgba(2, 132, 199, 0.3);
+}
+
+html.light ::-webkit-scrollbar-thumb:hover,
+html[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+  box-shadow: 0 0 10px rgba(2, 132, 199, 0.4);
+}
+
+/* Smooth Theme Color Transition */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *:before,
+html.theme-transition *:after {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
+  transition-delay: 0 !important;
+}
+
+/* Suppress Next.js Development Indicator button to prevent overlap with bottom-left floating AI button */
+[data-nextjs-dev-tools-button],
+nextjs-portal:has([data-nextjs-dev-tools-button]) {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+

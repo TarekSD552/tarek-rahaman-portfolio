@@ -1,0 +1,48 @@
+# Tarek Rahaman — Creative Full-Stack Web Developer & Software Engineer
+
+> Official AI and Search Engine Index for Tarek Rahaman.
+> Based in Mirpur-1, Dhaka, Bangladesh. Serving clients locally across Dhaka, nationwide across all 8 divisions of Bangladesh, and worldwide remotely.
+
+## 1. Professional Identity
+- **Full Name**: Tarek Rahaman (Md Tarek Rahaman)
+- **Role**: Creative Full-Stack Web Developer, WordPress & WooCommerce Specialist, Software Engineer
+- **Academic Background**: B.Sc. in Software Engineering at Daffodil International University (Major in Data Science)
+- **Certifications**: Verified NSDA Level-3 Web Development (National Skills Development Authority, Bangladesh)
+- **Primary Website**: https://tarekrahaman.com
+- **Office Location**: Mirpur-1, Dhaka-1216, Bangladesh
+- **Direct Email**: tarekrahaman186@gmail.com
+- **Direct Phone & WhatsApp**: +8801733119269 (WhatsApp: https://wa.me/8801733119269)
+- **GitHub Profile**: https://github.com/TarekSD552
+- **Social Profiles**: Facebook (https://www.facebook.com/tarak.rahoman.3), Instagram (https://www.instagram.com/tarek_rahman333)
+
+## 2. Core Web Development Services
+- **Custom Full-Stack Web Development**: Building scalable, fast, secure web applications with Next.js, React, Laravel, PHP, and modern REST APIs.
+- **High-Converting E-Commerce Platforms**: Custom WooCommerce and Laravel stores integrated with Bangladeshi payment systems (bKash, Nagad, Rocket, Upay, SSLCommerz) and automated courier dispatch (Steadfast, Pathao, RedX), as well as global payment systems (Stripe, PayPal).
+- **Custom WordPress Development**: Bespoke theme engineering from scratch, custom plugin architecture, Elementor Pro customization, ACF Pro dynamic fields, and Core Web Vitals speed optimization.
+- **High-Converting Landing Pages**: Fast, mobile-first, conversion-engineered landing pages built for marketing campaigns and startups.
+- **Website Redesign & Speed Optimization**: 90+ Google PageSpeed scores, WebP image compression, database query optimization, and technical SEO enhancement.
+- **Website Maintenance & Technical Support**: Ongoing security patches, regular backups, server uptime monitoring, and feature additions.
+
+## 3. Technology Stack & Technical Skills
+- **Frontend**: Next.js, React, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Framer Motion, Three.js
+- **Backend**: PHP, Laravel, Node.js, Express, Python
+- **CMS & E-Commerce**: WordPress, WooCommerce, Elementor, ACF Pro
+- **Databases**: MySQL, PostgreSQL, SQLite, Redis
+- **DevOps, Hosting & Tools**: Git, GitHub, cPanel, Hostinger, VPS, Cloudflare CDN, SSL, Vercel
+
+## 4. Service Areas & Delivery
+- **Mirpur & Greater Dhaka (Local Hub)**: Mirpur (Mirpur 1, 2, 6, 10, 11, 12, Mirpur DOHS), Dhanmondi, Uttara, Gulshan, Banani, Motijheel, and Mohammadpur for in-person planning and rapid project turnaround.
+- **Nationwide Bangladesh**: Dhaka, Chattogram, Sylhet, Rajshahi, Khulna, Rangpur, Barishal, and Mymensingh via Google Meet, Zoom, and WhatsApp with milestone-based delivery.
+- **Global Remote**: Offshore development for startups and businesses across the USA, UK, Canada, UAE, Europe, and Australia with timezone-aligned communication.
+
+## 5. Notable Portfolio Projects
+- **Ruporia Fashion Store**: High-converting luxury WooCommerce fashion e-commerce platform with automated Bangladeshi checkout (bKash/Nagad/SSLCommerz) and courier tracking.
+- **Tereasnusuae E-Commerce**: Modern multinational multi-currency e-commerce store with international payment integration.
+- **Corporate & Agency Portals**: Custom corporate portfolio and lead-generation web platforms.
+
+## 6. Trust & Ethical Verification
+- Tarek Rahaman strictly adheres to ethical white-hat web engineering and SEO practices.
+- Real, verifiable educational credentials from Daffodil International University.
+- Real given location in Mirpur-1, Dhaka.
+- Direct contact with Tarek Rahaman is available via WhatsApp (+8801733119269) and email (tarekrahaman186@gmail.com).
+

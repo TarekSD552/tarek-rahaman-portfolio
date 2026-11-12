@@ -1,0 +1,2998 @@
+{
+  "loadingSoundSettings": {
+    "enabled": true,
+    "soundUrl": "/sounds/whoosh-transition.wav",
+    "soundFileName": "whoosh-transition.wav (Default Futuristic Whoosh)",
+    "volume": 45,
+    "isCustom": false
+  },
+  "aiChatSettings": {
+    "enabled": true,
+    "botName": "Tarek AI Assistant",
+    "botRole": "Virtual Representative of Tarek Rahaman",
+    "welcomeMessageEn": "Hi! 👋 I'm Tarek's AI Assistant. I can tell you about Tarek Rahaman, his skills, services, projects, education, and how to hire him. How can I help you today?",
+    "welcomeMessageBn": "হ্যালো! 👋 আমি তারেক রহমানের AI Assistant। তারেকের দক্ষতা, সার্ভিস, প্রজেক্ট, পড়াশোনা বা অন্যান্য বিষয়ে জানতে চাইলে আমাকে জিজ্ঞাসা করতে পারেন। 😊",
+    "quickQuestions": [
+      {
+        "id": "about",
+        "label": "👨‍💻 About Tarek",
+        "prompt": "Tell me about Tarek Rahaman and his background."
+      },
+      {
+        "id": "skills",
+        "label": "🛠️ My Skills",
+        "prompt": "What technical skills and tools does Tarek specialize in?"
+      },
+      {
+        "id": "services",
+        "label": "💼 Services",
+        "prompt": "What web development and digital services does Tarek offer?"
+      },
+      {
+        "id": "portfolio",
+        "label": "🚀 Portfolio Projects",
+        "prompt": "Can you tell me about some of Tarek's key projects and work?"
+      },
+      {
+        "id": "education",
+        "label": "🎓 Education",
+        "prompt": "Where did Tarek study Software Engineering and what is his major?"
+      },
+      {
+        "id": "contact",
+        "label": "📞 Contact & Hire",
+        "prompt": "How can I hire Tarek or contact him for a project?"
+      }
+    ],
+    "systemPromptAddendum": "",
+    "maxHistoryTurns": 10
+  },
+  "siteSettings": {
+    "websiteName": "Tarek Rahaman",
+    "tagline": "Creative Web Developer & Full-Stack Architect",
+    "logoText": "TR",
+    "logoUrl": "",
+    "adminLogoUrl": "",
+    "favicon": "/uploads/1793979353500-favicon.png",
+    "faviconUrl": "/uploads/1793979353500-favicon.png",
+    "defaultSeoTitle": "Tarek Rahaman | Creative Web Developer & Full-Stack Architect",
+    "defaultSeoDesc": "Award-winning personal portfolio of Tarek Rahaman — Creative Web Developer, Full-Stack Developer, WordPress & WooCommerce Specialist.",
+    "copyrightText": "© 2026 Tarek Rahaman. All Rights Reserved.",
+    "availableForHire": true,
+    "copyrightYear": "2026",
+    "footerText": "Transform Your Online Presence with Tarek Rahaman — Expert Full-Stack & WordPress Developer delivering high-performance results.",
+    "cvUrl": "/assets/Tarek-Rahaman-Professional-CV-Resume.pdf"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Tarek Rahaman",
+    "mainTitle": "FULL-STACK WEB DEVELOPER",
+    "subTitle": "Laravel • Python • WordPress • WooCommerce Specialist",
+    "description": "Modern web applications that are fast, secure and user-friendly.",
+    "primaryButtonText": "Download CV",
+    "primaryButtonUrl": "/assets/Tarek-Rahaman-Professional-CV-Resume.pdf",
+    "primaryButtonIcon": "Download",
+    "primaryButtonDownload": true,
+    "primaryButtonNewTab": true,
+    "primaryButtonVisible": true,
+    "secondaryButtonText": "Hire Me",
+    "secondaryButtonUrl": "/contact",
+    "secondaryButtonIcon": "ArrowUpRight",
+    "secondaryButtonNewTab": false,
+    "secondaryButtonVisible": true,
+    "portraitUrl": "/uploads/1793719116653-Untitled_design.png",
+    "portraitAlt": "Tarek Rahaman - Full-Stack Web Developer",
+    "cloudBgUrl": "/assets/realistic-white-clouds.jpg",
+    "showClouds": true,
+    "cloudOpacity": 95,
+    "showLightBeam": true,
+    "animatedPhrases": [
+      "FULL-STACK DEVELOPER",
+      "WEB APPLICATION SPECIALIST",
+      "LARAVEL DEVELOPER",
+      "WORDPRESS EXPERT",
+      "E-COMMERCE SOLUTIONS",
+      "CREATIVE WEB DEVELOPER",
+      "BUILDING DIGITAL EXPERIENCES"
+    ]
+  },
+  "profile": {
+    "name": "Tarek Rahaman",
+    "fullName": "Md Tarek Rahaman",
+    "titles": [
+      "Full-Stack Web Developer",
+      "Laravel Developer",
+      "WordPress & WooCommerce Specialist",
+      "Speed Optimization Expert",
+      "Aspiring Machine Learning Engineer"
+    ],
+    "shortBio": "I build modern, responsive and user-friendly websites & web applications. WordPress WooCommerce PHP Laravel Web Development.",
+    "fullBio": "I am studying Software Engineering at Daffodil International University with a major in Data Science. As a professional WordPress developer and e-commerce expert, I deliver products and services that are simple, elegant, and powerful — unleashing new value and revolutionizing digital presence for brands worldwide.",
+    "location": "Mirpur-1, Dhaka, Bangladesh",
+    "email": "tarekrahaman186@gmail.com",
+    "alternateEmail": "tarekrahaman186@gmail.com",
+    "phone": "+8801733119269",
+    "alternatePhone": "01733119269",
+    "whatsapp": "https://wa.me/8801733119269?text=Hi%20Tarek,%20I%20want%20to%20talk%20about%20a%20project.",
+    "messenger": "https://m.me/tarak.rahoman.3",
+    "cvUrl": "/assets/Tarek-Rahaman-Professional-CV-Resume.pdf",
+    "availableForHire": true,
+    "mainPortraitUrl": "/uploads/1793873737406-WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+    "heroPhotos": [
+      {
+        "id": "hero-card-1",
+        "src": "/uploads/1793852567583-WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+        "alt": "Tarek Rahaman - Workstation Lab",
+        "label": "Workstation Lab",
+        "role": "Full-Stack Web Developer",
+        "description": "Tarek Rahaman at the development workstation building high-performance web systems.",
+        "rotation": "-5deg"
+      },
+      {
+        "id": "hero-card-2",
+        "src": "/uploads/1793873737406-WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+        "alt": "Tarek Rahaman - Creative Web Developer",
+        "label": "Tarek Rahaman",
+        "role": "Creative Web Developer",
+        "description": "Md Tarek Rahaman — Full-Stack Web Developer & WordPress/WooCommerce Specialist.",
+        "rotation": "0deg"
+      },
+      {
+        "id": "hero-card-3",
+        "src": "/uploads/1793852576707-WhatsApp_Image_2026-11-04_at_9.40.30_PM__1_.jpeg",
+        "alt": "Tarek Rahaman - NSDA National Skills Certificate",
+        "label": "NSDA Certified",
+        "role": "Govt. Level-3 Certification",
+        "description": "National Skills Certificate in Web Design and Development for Freelancing (Level-3).",
+        "rotation": "5deg"
+      }
+    ],
+    "socialLinks": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/tarak.rahoman.3",
+        "icon": "Facebook",
+        "active": true,
+        "order": 1
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/tarek_rahman333?igsh=d3VnNWZ4bGN4MHEz",
+        "icon": "Instagram",
+        "active": true,
+        "order": 2
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tarek-rahaman-167396355?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        "icon": "Linkedin",
+        "active": true,
+        "order": 3
+      },
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/8801733119269?text=Hi%20Tarek,%20I%20want%20to%20talk%20about%20a%20project.",
+        "icon": "MessageCircle",
+        "active": true,
+        "order": 4
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/TarekSD552",
+        "icon": "Github",
+        "active": true,
+        "order": 5
+      }
+    ],
+    "portraitUrl": "/uploads/1793873737406-WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg"
+  },
+  "education": [
+    {
+      "institution": "Daffodil International University",
+      "degree": "B.Sc. in Software Engineering (Major in Data Science)",
+      "location": "Dhaka, Bangladesh",
+      "description": "Focused on advanced software architecture, database management, machine learning models, and modern full-stack web applications.",
+      "highlight": "Major in Data Science"
+    },
+    {
+      "institution": "Rajshahi Police Lines School and College",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "location": "Rajshahi Division",
+      "description": "Successfully completed HSC with strong academic standing, specializing in Science and Mathematics.",
+      "highlight": "Science Division"
+    },
+    {
+      "institution": "Katipur Kalinagar High School",
+      "degree": "Secondary School Certificate (SSC)",
+      "location": "Sapahar, Naogaon",
+      "description": "Built rigorous foundation in physics, higher mathematics, algorithms, and logical problem-solving.",
+      "highlight": "Science Foundation"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "National Skills Development Authority (NSDA)",
+      "issuer": "Government of Bangladesh Verified Certification",
+      "description": "Industry-standard certification for professional web design and web application development."
+    },
+    {
+      "title": "WordPress & WooCommerce Architecture Expert",
+      "issuer": "Professional Development Program",
+      "description": "Advanced training in creating bespoke themes, custom checkout flows, and plugin architectures."
+    },
+    {
+      "title": "Frontend Engineering & Modern UI Architecture",
+      "issuer": "Advanced Web Technologies",
+      "description": "Specialized in HTML5, CSS3, modern JavaScript, Tailwind CSS, and performance optimization."
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-1",
+      "title": "Home",
+      "slug": "/",
+      "description": "Main personal portfolio showcase and landing page",
+      "seoTitle": "Tarek Rahaman | Creative Web Developer",
+      "seoDesc": "Full-stack developer portfolio featuring Laravel, WordPress, and React projects.",
+      "enabled": true,
+      "isPublished": true,
+      "order": 1
+    },
+    {
+      "id": "page-2",
+      "title": "About",
+      "slug": "/about",
+      "description": "Educational journey, verified certifications, and professional background",
+      "seoTitle": "About Tarek Rahaman | Software Engineering & Background",
+      "seoDesc": "Learn about Tarek Rahaman's background, education at Daffodil International University, and verified certifications.",
+      "enabled": true,
+      "isPublished": true,
+      "order": 2
+    },
+    {
+      "id": "page-3",
+      "title": "Services",
+      "slug": "/services",
+      "description": "Digital web solutions, WordPress setups, and custom Laravel engineering",
+      "seoTitle": "Services | High-Performance Web Development",
+      "seoDesc": "Explore professional services including WordPress, WooCommerce, speed optimization, and custom web apps.",
+      "enabled": true,
+      "isPublished": true,
+      "order": 3
+    },
+    {
+      "id": "page-4",
+      "title": "Skills",
+      "slug": "/skills",
+      "description": "Comprehensive technical competencies across 7 specialized stacks",
+      "seoTitle": "Technical Skills & Competencies | Tarek Rahaman",
+      "seoDesc": "Proficiency overview across frontend, backend, CMS, databases, and DevOps.",
+      "enabled": true,
+      "isPublished": true,
+      "order": 4
+    },
+    {
+      "id": "page-5",
+      "title": "Portfolio",
+      "slug": "/portfolio",
+      "description": "Complete catalog of live client projects and web platforms",
+      "seoTitle": "Showcase Projects | Tarek Rahaman",
+      "seoDesc": "Browse through live client websites and web applications developed by Tarek Rahaman.",
+      "enabled": true,
+      "isPublished": true,
+      "order": 5
+    },
+    {
+      "id": "page-6",
+      "title": "Contact",
+      "slug": "/contact",
+      "description": "Direct contact inquiry portal and direct WhatsApp / email links",
+      "seoTitle": "Contact Tarek Rahaman | Available for Projects",
+      "seoDesc": "Get in touch for custom website design, web applications, or consulting.",
+      "enabled": true,
+      "isPublished": true,
+      "order": 6
+    }
+  ],
+  "homeSections": [
+    {
+      "id": "sec-hero",
+      "key": "hero",
+      "name": "Hero Header",
+      "badge": "DEVELOPER",
+      "title": "Tarek Rahaman",
+      "subtitle": "Full-Stack Web Developer",
+      "description": "I build modern, responsive and user-friendly websites & web applications.",
+      "enabled": true,
+      "order": 1,
+      "buttonText": "Download CV",
+      "buttonLink": "/assets/Tarek-Rahaman-Professional-CV-Resume.pdf"
+    },
+    {
+      "id": "sec-milestones",
+      "key": "milestones",
+      "name": "Moments & Milestones Collage",
+      "badge": "MOMENTS & MILESTONES",
+      "title": "Crafting Digital Solutions, Living The Journey",
+      "subtitle": "Visual Journey",
+      "description": "Curated personal moments, workstation labs, and verified certifications.",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "sec-services",
+      "key": "services",
+      "name": "My Services",
+      "badge": "SERVICES",
+      "title": "My Digital",
+      "subtitle": "Services",
+      "description": "High-impact web solutions tailored for business growth.",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "sec-skills",
+      "key": "skills",
+      "name": "Professional Skills",
+      "badge": "SKILLS",
+      "title": "Professional",
+      "subtitle": "Skills",
+      "description": "Proven technical proficiency across modern tech stacks.",
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "sec-projects",
+      "key": "projects",
+      "name": "Portfolio Projects",
+      "badge": "PORTFOLIO",
+      "title": "My",
+      "subtitle": "Portfolio",
+      "description": "If you like my projects then don't hesitate to contact me.",
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "sec-workflow",
+      "key": "workflow",
+      "name": "Why Choose Us / Workflow",
+      "badge": "WORKFLOW",
+      "title": "How We Execute Your Project",
+      "subtitle": "To Perfection",
+      "description": "A structured, transparent engineering process.",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "sec-about",
+      "key": "about",
+      "name": "About Me Summary",
+      "badge": "ABOUT ME",
+      "title": "Architecting Modern",
+      "subtitle": "Web Experiences",
+      "description": "Software engineering student with deep passion for web architectures.",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "sec-testimonials",
+      "key": "testimonials",
+      "name": "Testimonials & Statistics",
+      "badge": "TESTIMONIALS",
+      "title": "Trusted By Clients",
+      "subtitle": "Worldwide",
+      "description": "Client feedback and measurable achievements.",
+      "enabled": true,
+      "order": 8
+    },
+    {
+      "id": "sec-clients",
+      "key": "clients",
+      "name": "Clients Marquee",
+      "badge": "BRANDS",
+      "title": "Brands Worked With",
+      "description": "Partners and businesses elevated through custom digital platforms.",
+      "enabled": true,
+      "order": 9
+    },
+    {
+      "id": "sec-cta",
+      "key": "cta",
+      "name": "Final Call To Action",
+      "badge": "START A PROJECT",
+      "title": "Have a Vision? Let's Turn It Into Reality.",
+      "description": "Available for freelance projects, WordPress developments, and full-stack contracts.",
+      "enabled": true,
+      "order": 10,
+      "buttonText": "Let's Talk Projects",
+      "buttonLink": "/contact"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-01-ecommerce-website",
+      "slug": "e-commerce-website-tereasnusuae",
+      "title": "E-Commerce Website",
+      "category": "ecommerce",
+      "categoryName": "E-Commerce",
+      "image": "/assets/Screenshot-2026-09-04-024440.png",
+      "liveUrl": "https://tereasnusuae.ae/",
+      "description": "Modern e-commerce platform tailored for seamless product catalog browsing, dynamic checkout, and multi-currency orders.",
+      "technologies": [
+        "WooCommerce",
+        "WordPress",
+        "Multi-Currency",
+        "Responsive"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-02-ruporia-fashion",
+      "slug": "ruporia-fashion-store",
+      "title": "Ruporia Fashion Store",
+      "category": "ecommerce",
+      "categoryName": "E-Commerce",
+      "image": "/assets/Screenshot-2026-08-28-003617.png",
+      "liveUrl": "https://ruporia.com/",
+      "description": "Sophisticated luxury fashion and jewelry boutique website featuring curated lookbooks and secure checkout.",
+      "technologies": [
+        "WooCommerce",
+        "WordPress",
+        "Luxury UI Design",
+        "Responsive"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-03-innovebd-business",
+      "slug": "innovebd-business-website",
+      "title": "InnoveBD Business Website",
+      "category": "business",
+      "categoryName": "Business & Agency",
+      "image": "/assets/Screenshot-2026-08-09-233147.png",
+      "liveUrl": "https://innovebd.com/",
+      "description": "Commercial IT hardware, surveillance, and enterprise security solutions portal with categorized catalog and quote inquiries.",
+      "technologies": [
+        "Business Web",
+        "WordPress",
+        "Custom PHP",
+        "MySQL"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-04-shikaku-japanese",
+      "slug": "shikaku-japanese-language-school",
+      "title": "Shikaku Japanese Language School",
+      "category": "education",
+      "categoryName": "Education",
+      "image": "/assets/Screenshot-2026-10-04-082353.png",
+      "liveUrl": "https://shikakujapanese.online/",
+      "description": "Specialized Japanese language learning and online curriculum platform with interactive courses and student evaluation.",
+      "technologies": [
+        "Education Web App",
+        "PHP",
+        "MySQL",
+        "JavaScript"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-05-education-results",
+      "slug": "education-results-platform",
+      "title": "Education Results Platform",
+      "category": "education",
+      "categoryName": "Education",
+      "image": "/assets/Screenshot-2026-09-04-024902.png",
+      "liveUrl": "https://educationresults.online/",
+      "description": "Centralized public educational result verification platform for instant lookup of scores, registration, and grade cards.",
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "Database Query Engine",
+        "Responsive UI"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-06-student-exam",
+      "slug": "student-exam-management-system",
+      "title": "Student Exam Management System",
+      "category": "education",
+      "categoryName": "Education",
+      "image": "/assets/Screenshot-2026-08-13-191532.png",
+      "liveUrl": "https://student-exam.xyz/",
+      "description": "Automated examination and assessment portal providing real-time score grading, student accounts, and secure test sessions.",
+      "technologies": [
+        "Web App",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-07-jahed-hasan",
+      "slug": "jahed-hasan-portfolio",
+      "title": "Jahed Hasan Portfolio",
+      "category": "portfolio",
+      "categoryName": "Personal Portfolio",
+      "image": "/assets/Screenshot-2026-08-28-002156.png",
+      "liveUrl": "https://jahedhasan.com/",
+      "description": "Custom branded personal portfolio website designed for an SEO specialist, featuring rank proof graphs and case studies.",
+      "technologies": [
+        "Personal Brand",
+        "WordPress",
+        "Custom Styles",
+        "SEO Optimized"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-08-kahhar-ikram",
+      "slug": "kahhar-ikram-portfolio",
+      "title": "Kahhar Ikram Portfolio",
+      "category": "portfolio",
+      "categoryName": "Personal Portfolio",
+      "image": "/assets/Screenshot-2026-09-17-033900.png",
+      "liveUrl": "https://kahharikram.com/",
+      "description": "Clean, modern personal portfolio website crafted for an SEO professional to showcase client case studies and consultation booking.",
+      "technologies": [
+        "WordPress",
+        "Modern Layout",
+        "Performance Tuned",
+        "Mobile First"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-09-bangla-business",
+      "slug": "bangla-business-website",
+      "title": "বাংলা Business Website",
+      "category": "business",
+      "categoryName": "Business & Agency",
+      "image": "/assets/screencapture-xn-44b5b2aq8a5a8gk2k-2026-10-04-08_26_05-scaled.png",
+      "liveUrl": "https://xn--44b5b2aq8a5a8gk2k.com/",
+      "description": "Laser-targeted business landing page with localized Bengali typography, instant lead capture, and high conversion rate.",
+      "technologies": [
+        "Landing Page",
+        "Bengali UI",
+        "High Speed",
+        "WordPress"
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-10-mango-store",
+      "slug": "naogaon-mango-bazar-ecommerce",
+      "title": "Naogaon Mango Bazar",
+      "category": "ecommerce",
+      "categoryName": "E-Commerce",
+      "image": "/assets/Screenshot-2026-08-09-004651.png",
+      "liveUrl": "https://naogaonmangobazar.com/",
+      "description": "Specialized organic mango e-commerce platform built for seasonal wholesale and retail commerce with dynamic order calculation.",
+      "technologies": [
+        "WordPress",
+        "WooCommerce",
+        "Custom CSS",
+        "Payment Gateway"
+      ],
+      "featured": false
+    },
+    {
+      "id": "project-11-fashion-store",
+      "slug": "china-city-fashion-store",
+      "title": "China City Fashion",
+      "category": "ecommerce",
+      "categoryName": "E-Commerce",
+      "image": "/assets/Screenshot-2026-08-22-213330.png",
+      "liveUrl": "https://chinacityfashion.com/",
+      "description": "High-end fashion retail online store with multi-category product filters, responsive lookbooks, and seamless payment integration.",
+      "technologies": [
+        "WooCommerce",
+        "WordPress",
+        "JavaScript",
+        "Elementor Pro"
+      ],
+      "featured": false
+    },
+    {
+      "id": "project-12-corporate-agency",
+      "slug": "corporate-business-agency-consulting",
+      "title": "Corporate Business Agency",
+      "category": "business",
+      "categoryName": "Business & Agency",
+      "image": "/assets/photo-1460925895917-afdab827c52f",
+      "liveUrl": "https://tarekrahaman.com/contact",
+      "description": "Premium corporate agency web presence with strategic case studies, modern lead-generation touchpoints, and executive branding.",
+      "technologies": [
+        "Corporate Design",
+        "WordPress",
+        "Responsive Grid"
+      ],
+      "featured": false
+    },
+    {
+      "id": "project-13-digital-marketing",
+      "slug": "digital-marketing-agency-solutions",
+      "title": "Digital Marketing Agency",
+      "category": "business",
+      "categoryName": "Business & Agency",
+      "image": "/assets/photo-1507679799987-c73779587ccf",
+      "liveUrl": "https://tarekrahaman.com/contact",
+      "description": "Dynamic digital agency web layout highlighting campaign analytics, service suites, case study metrics, and client engagement tools.",
+      "technologies": [
+        "Agency Layout",
+        "UI/UX",
+        "Interactive Elements"
+      ],
+      "featured": false
+    }
+  ],
+  "services": [
+    {
+      "number": "01",
+      "title": "Website Design & Development",
+      "shortDesc": "Create modern, fast and professional websites for your business.",
+      "fullDesc": "Bespoke websites designed to establish credibility, attract visitors, and drive real business growth with clean design and responsive mobile performance.",
+      "features": [
+        "Modern & Responsive Design",
+        "Mobile Friendly",
+        "Fast & SEO Ready"
+      ],
+      "icon": "WebsiteDesign",
+      "badge": "Web Design"
+    },
+    {
+      "number": "02",
+      "title": "E-Commerce Website Development",
+      "shortDesc": "Build a professional online store to sell your products easily.",
+      "fullDesc": "Complete e-commerce stores equipped with smooth product browsing, secure payment gateways, inventory management, and seamless customer checkout.",
+      "features": [
+        "Online Store Setup",
+        "Secure Payment System",
+        "Easy Product Management"
+      ],
+      "icon": "ECommerce",
+      "badge": "E-Commerce"
+    },
+    {
+      "number": "03",
+      "title": "Landing Page Design",
+      "shortDesc": "High-converting landing pages designed to grow your business.",
+      "fullDesc": "Persuasive, targeted landing pages engineered with clear call-to-actions, psychological structure, and rapid loading speeds to maximize conversion rates.",
+      "features": [
+        "Modern UI Design",
+        "Mobile Responsive",
+        "Conversion Focused"
+      ],
+      "icon": "LandingPage",
+      "badge": "Landing Page"
+    },
+    {
+      "number": "04",
+      "title": "Laravel Web Applications",
+      "shortDesc": "Custom, secure and powerful web applications built for your needs.",
+      "fullDesc": "Custom business portals, management software, and scalable backend platforms engineered for high reliability, clean data architecture, and top-tier security.",
+      "features": [
+        "Custom Web Applications",
+        "Secure & Fast Database",
+        "High Performance & Scalable"
+      ],
+      "icon": "Laravel",
+      "badge": "Laravel App"
+    },
+    {
+      "number": "05",
+      "title": "WordPress & WooCommerce",
+      "shortDesc": "Custom WordPress websites and online stores that are easy to manage.",
+      "fullDesc": "Custom-tailored WordPress themes and WooCommerce setups that give you full control of your content with intuitive admin dashboards and reliable speed.",
+      "features": [
+        "Easy Content Management",
+        "Custom Theme & Design",
+        "Speed & Security Optimized"
+      ],
+      "icon": "WordPress",
+      "badge": "WordPress"
+    },
+    {
+      "number": "06",
+      "title": "Custom Web Solutions",
+      "shortDesc": "Tailored web solutions and automation built for your unique business.",
+      "fullDesc": "Solving your exact business challenges with custom integrations, workflow automations, custom API connections, and specialized digital tools.",
+      "features": [
+        "Tailored Business Solutions",
+        "Third-Party Integrations",
+        "Automated & Reliable Workflows"
+      ],
+      "icon": "CustomSolution",
+      "badge": "Custom Solutions"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Coding & Programming Languages",
+      "description": "Core programming fundamentals, frontend engineering, and server-side systems",
+      "skills": [
+        {
+          "name": "HTML",
+          "level": 95
+        },
+        {
+          "name": "CSS",
+          "level": 92
+        },
+        {
+          "name": "JavaScript",
+          "level": 85
+        },
+        {
+          "name": "PHP",
+          "level": 88
+        },
+        {
+          "name": "Laravel",
+          "level": 85
+        },
+        {
+          "name": "React",
+          "level": 84
+        },
+        {
+          "name": "Next.js",
+          "level": 80
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": 90
+        },
+        {
+          "name": "MySQL",
+          "level": 92
+        },
+        {
+          "name": "SQL / Database Management",
+          "level": 88
+        },
+        {
+          "name": "Python",
+          "level": 82
+        },
+        {
+          "name": "C Programming",
+          "level": 80
+        },
+        {
+          "name": "Java",
+          "level": 78
+        },
+        {
+          "name": "R Programming",
+          "level": 75
+        },
+        {
+          "name": "Git",
+          "level": 88
+        }
+      ]
+    },
+    {
+      "category": "Tools & Technologies",
+      "description": "Industry-standard development tools, workflows, design software, and platforms",
+      "skills": [
+        {
+          "name": "VS Code",
+          "level": 95
+        },
+        {
+          "name": "Git & GitHub",
+          "level": 88
+        },
+        {
+          "name": "WordPress & Elementor",
+          "level": 95
+        },
+        {
+          "name": "Figma",
+          "level": 82
+        },
+        {
+          "name": "Postman",
+          "level": 80
+        },
+        {
+          "name": "Tailwind CSS & React",
+          "level": 85
+        },
+        {
+          "name": "Power BI",
+          "level": 78
+        },
+        {
+          "name": "MySQL Workbench",
+          "level": 86
+        },
+        {
+          "name": "XAMPP",
+          "level": 90
+        },
+        {
+          "name": "Canva",
+          "level": 85
+        },
+        {
+          "name": "Chrome DevTools",
+          "level": 88
+        },
+        {
+          "name": "Terminal & CLI",
+          "level": 84
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "id": "nav-1",
+      "name": "HOME",
+      "href": "/",
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "nav-2",
+      "name": "ABOUT",
+      "href": "/about",
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "nav-3",
+      "name": "SERVICES",
+      "href": "/services",
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "nav-4",
+      "name": "SKILLS",
+      "href": "/skills",
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "nav-5",
+      "name": "PROJECT",
+      "href": "/project",
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "nav-6",
+      "name": "CONTACT",
+      "href": "/contact",
+      "order": 6,
+      "enabled": true
+    }
+  ],
+  "contactInfo": {
+    "email": "tarekrahaman186@gmail.com",
+    "alternateEmail": "tarekrahaman186@gmail.com",
+    "phone": "01733119269",
+    "alternatePhone": "01840019449",
+    "whatsapp": "https://wa.me/8801733119269?text=Hi%20Tarek,%20I%20want%20to%20talk%20about%20a%20project.",
+    "messenger": "https://m.me/tarak.rahoman.3",
+    "location": "Mirpur-1, Dhaka, Bangladesh",
+    "facebook": "https://www.facebook.com/tarak.rahoman.3",
+    "instagram": "https://www.instagram.com/tarekrahaman24/",
+    "linkedin": "https://www.linkedin.com/in/tarek-rahaman/",
+    "github": "https://github.com/tarekrahaman"
+  },
+  "milestonesPhotos": [
+    {
+      "id": "collage-photo-1",
+      "src": "/uploads/1793809343531-WhatsApp_Image_2026-11-04_at_9.40.31_PM.jpeg",
+      "alt": "Tarek Rahaman at Developer Workstation Lab",
+      "badge": "WORKSTATION",
+      "title": "Engineering Lab",
+      "subtitle": "High-Performance Web Architecture",
+      "description": "Tarek Rahaman at the development workstation designing clean Laravel systems, custom APIs, and high-performance WooCommerce architectures.",
+      "rotation": -3.5,
+      "desktopPos": {
+        "left": "1%",
+        "top": "36px",
+        "width": "23.5%",
+        "zIndex": 15,
+        "aspectRatio": "aspect-[4/5]"
+      }
+    },
+    {
+      "id": "collage-photo-2",
+      "src": "/uploads/1793809308109-WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "alt": "Tech Collaboration & Engineering Sprints",
+      "badge": "COLLABORATION",
+      "title": "Agile Sprints",
+      "subtitle": "Team Synergies & Solutions",
+      "description": "Collaborative design sprints and peer reviews ensuring every web solution is battle-tested, secure, and user-centric.",
+      "rotation": 2.2,
+      "desktopPos": {
+        "left": "19.5%",
+        "top": "66px",
+        "width": "23%",
+        "zIndex": 20,
+        "aspectRatio": "aspect-[4/5]"
+      }
+    },
+    {
+      "id": "collage-photo-3",
+      "src": "/uploads/1793792839401-WhatsApp_Image_2026-11-04_at_5.46.07_PM__1_.jpeg",
+      "alt": "Md Tarek Rahaman - Full-Stack Web Developer",
+      "badge": "MAIN FOCAL PORTRAIT",
+      "title": "Md Tarek Rahaman",
+      "subtitle": "Full-Stack Web Developer",
+      "description": "Creative Full-Stack Web Developer specializing in Laravel web applications, WordPress/WooCommerce, and high-converting modern digital interfaces.",
+      "rotation": 0,
+      "desktopPos": {
+        "left": "37%",
+        "top": "10px",
+        "width": "26%",
+        "zIndex": 30,
+        "aspectRatio": "aspect-[4/5]"
+      }
+    },
+    {
+      "id": "collage-photo-4",
+      "src": "/uploads/1793793483685-WhatsApp_Image_2026-11-04_at_5.57.47_PM.jpeg",
+      "alt": "NSDA National Skills Certificate Level-3",
+      "badge": "CERTIFICATION",
+      "title": "NSDA Level-3 Certified",
+      "subtitle": "Govt. Skills Authority Recognition",
+      "description": "Govt. Level-3 National Skills Certificate in Web Design & Development for Freelancing by National Skills Development Authority (NSDA), Chief Adviser's Office.",
+      "rotation": -2.2,
+      "desktopPos": {
+        "left": "57.5%",
+        "top": "44px",
+        "width": "23%",
+        "zIndex": 20,
+        "aspectRatio": "aspect-[4/5]"
+      }
+    },
+    {
+      "id": "collage-photo-5",
+      "src": "/uploads/1793809316332-WhatsApp_Image_2026-11-04_at_9.40.30_PM__1_.jpeg",
+      "alt": "Client Tech Presentation & Strategy",
+      "badge": "STRATEGY",
+      "title": "Strategic Impact",
+      "subtitle": "Client Delivery & Tech Leadership",
+      "description": "Aligning deep technical precision with business goals to deliver robust digital platforms that convert and scale seamlessly.",
+      "rotation": 3.5,
+      "desktopPos": {
+        "left": "75.5%",
+        "top": "66px",
+        "width": "23.5%",
+        "zIndex": 15,
+        "aspectRatio": "aspect-[4/5]"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "label": "Happy Clients",
+      "value": 100,
+      "suffix": "+",
+      "description": "Satisfied international and local clients"
+    },
+    {
+      "label": "Projects Completed",
+      "value": 120,
+      "suffix": "+",
+      "description": "Commercial web solutions deployed successfully"
+    },
+    {
+      "label": "My Services",
+      "value": 5,
+      "suffix": "+",
+      "description": "Specialized digital development disciplines"
+    },
+    {
+      "label": "Company Connect us",
+      "value": 50,
+      "suffix": "+",
+      "description": "Organizations and partners collaborated with"
+    }
+  ],
+  "mediaManager": {
+    "settings": {
+      "enabled": true,
+      "videoEnabled": false,
+      "audioEnabled": true,
+      "musicSource": "audio",
+      "activeVideoId": "",
+      "activeAudioId": "aud-1793978195726",
+      "activeYouTubeAudioId": "ytaud-1793983096266",
+      "autoplay": true,
+      "loop": true,
+      "volume": 60,
+      "muted": false
+    },
+    "videos": [],
+    "audios": [
+      {
+        "id": "aud-1793978195726",
+        "title": "Audio Stream / Track",
+        "type": "url",
+        "url": "/uploads/deep-focus-trading-theme.mp3",
+        "originalUrl": "https://drive.google.com/file/d/1t4UzEvy_uQ4tq-wKcNb3tXCxp8vYSu-9/view?usp=sharing",
+        "createdAt": "2026-11-06"
+      }
+    ],
+    "youtubeAudios": [
+      {
+        "id": "ytaud-1793983096266",
+        "title": "YouTube Background Music (Uhmq6gmLpGQ)",
+        "url": "https://www.youtube.com/watch?v=Uhmq6gmLpGQ",
+        "youtubeId": "Uhmq6gmLpGQ",
+        "createdAt": "2026-11-06"
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "media-1793979353502",
+      "name": "favicon.png",
+      "url": "/uploads/1793979353500-favicon.png",
+      "size": "432 KB",
+      "type": "image/png",
+      "category": "Images",
+      "uploadedAt": "2026-11-06"
+    },
+    {
+      "id": "media-1793877997856",
+      "name": "unnamed__7_.jpg",
+      "url": "/uploads/1793877997825-unnamed__7_.jpg",
+      "size": "51 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793874457882",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM__2_.jpeg",
+      "url": "/uploads/1793874457881-WhatsApp_Image_2026-11-04_at_5.46.07_PM__2_.jpeg",
+      "size": "139 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793873737407",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+      "url": "/uploads/1793873737406-WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+      "size": "102 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793873711001",
+      "name": "images__1_.jpg",
+      "url": "/uploads/1793873710974-images__1_.jpg",
+      "size": "30 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793873443972",
+      "name": "images.jpg",
+      "url": "/uploads/1793873443952-images.jpg",
+      "size": "20 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793873440921",
+      "name": "images__1_.jpg",
+      "url": "/uploads/1793873440904-images__1_.jpg",
+      "size": "30 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793873437361",
+      "name": "images__2_.jpg",
+      "url": "/uploads/1793873437337-images__2_.jpg",
+      "size": "23 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793861865079",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM__2_.jpeg",
+      "url": "/uploads/1793861865069-WhatsApp_Image_2026-11-04_at_5.46.07_PM__2_.jpeg",
+      "size": "139 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793861010351",
+      "name": "profile-1-scaled__1_.png",
+      "url": "/uploads/1793861010346-profile-1-scaled__1_.png",
+      "size": "1.7 MB",
+      "type": "image/png",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793852719515",
+      "name": "Screenshot-2026-09-17-032619.png",
+      "url": "/uploads/1793852719513-Screenshot-2026-09-17-032619.png",
+      "size": "134 KB",
+      "type": "image/png",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793852713760",
+      "name": "1786250627196.jpg.jpeg",
+      "url": "/uploads/1793852713758-1786250627196.jpg.jpeg",
+      "size": "204 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793852666556",
+      "name": "WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "url": "/uploads/1793852666552-WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "size": "276 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793852637320",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM__1_.jpeg",
+      "url": "/uploads/1793852637317-WhatsApp_Image_2026-11-04_at_5.46.07_PM__1_.jpeg",
+      "size": "158 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793852576710",
+      "name": "WhatsApp_Image_2026-11-04_at_9.40.30_PM__1_.jpeg",
+      "url": "/uploads/1793852576707-WhatsApp_Image_2026-11-04_at_9.40.30_PM__1_.jpeg",
+      "size": "130 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793852567586",
+      "name": "WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "url": "/uploads/1793852567583-WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "size": "163 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-05"
+    },
+    {
+      "id": "media-1793809553820",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+      "url": "/uploads/1793809553819-WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+      "size": "102 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793809548599",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM__1_.jpeg",
+      "url": "/uploads/1793809548598-WhatsApp_Image_2026-11-04_at_5.46.07_PM__1_.jpeg",
+      "size": "158 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793809517499",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM__2_.jpeg",
+      "url": "/uploads/1793809517496-WhatsApp_Image_2026-11-04_at_5.46.07_PM__2_.jpeg",
+      "size": "139 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793809343533",
+      "name": "WhatsApp_Image_2026-11-04_at_9.40.31_PM.jpeg",
+      "url": "/uploads/1793809343531-WhatsApp_Image_2026-11-04_at_9.40.31_PM.jpeg",
+      "size": "177 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793809316334",
+      "name": "WhatsApp_Image_2026-11-04_at_9.40.30_PM__1_.jpeg",
+      "url": "/uploads/1793809316332-WhatsApp_Image_2026-11-04_at_9.40.30_PM__1_.jpeg",
+      "size": "130 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793809308110",
+      "name": "WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "url": "/uploads/1793809308109-WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "size": "163 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793809193256",
+      "name": "test_avatar.png",
+      "url": "/uploads/1793809193254-test_avatar.png",
+      "size": "0 KB",
+      "type": "image/png",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793807206681",
+      "name": "WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "url": "/uploads/1793807206679-WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "size": "163 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793807184187",
+      "name": "WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "url": "/uploads/1793807184185-WhatsApp_Image_2026-11-04_at_9.40.30_PM.jpeg",
+      "size": "163 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793793483690",
+      "name": "WhatsApp_Image_2026-11-04_at_5.57.47_PM.jpeg",
+      "url": "/uploads/1793793483685-WhatsApp_Image_2026-11-04_at_5.57.47_PM.jpeg",
+      "size": "770 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793793404734",
+      "name": "561477005_1797627024228199_1380179623071652913_n__1_.jpg",
+      "url": "/uploads/1793793404692-561477005_1797627024228199_1380179623071652913_n__1_.jpg",
+      "size": "7 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793793383731",
+      "name": "WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "url": "/uploads/1793793383729-WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "size": "276 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793793362456",
+      "name": "WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "url": "/uploads/1793793362455-WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "size": "276 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793793348988",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+      "url": "/uploads/1793793348986-WhatsApp_Image_2026-11-04_at_5.46.07_PM.jpeg",
+      "size": "102 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793793319963",
+      "name": "536285511_1749907399000162_9137662308848937323_n.jpg",
+      "url": "/uploads/1793793319938-536285511_1749907399000162_9137662308848937323_n.jpg",
+      "size": "7 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793792947140",
+      "name": "561477005_1797627024228199_1380179623071652913_n__1_.jpg",
+      "url": "/uploads/1793792947126-561477005_1797627024228199_1380179623071652913_n__1_.jpg",
+      "size": "7 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793792942155",
+      "name": "491277989_1660336814623888_1291453467007019528_n__1_.jpg",
+      "url": "/uploads/1793792942122-491277989_1660336814623888_1291453467007019528_n__1_.jpg",
+      "size": "9 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793792839403",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.07_PM__1_.jpeg",
+      "url": "/uploads/1793792839401-WhatsApp_Image_2026-11-04_at_5.46.07_PM__1_.jpeg",
+      "size": "158 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793792830866",
+      "name": "WhatsApp_Image_2026-11-04_at_5.46.08_PM.jpeg",
+      "url": "/uploads/1793792830865-WhatsApp_Image_2026-11-04_at_5.46.08_PM.jpeg",
+      "size": "114 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-04"
+    },
+    {
+      "id": "media-1793719116657",
+      "name": "Untitled_design.png",
+      "url": "/uploads/1793719116653-Untitled_design.png",
+      "size": "2.0 MB",
+      "type": "image/png",
+      "category": "Images",
+      "uploadedAt": "2026-11-03"
+    },
+    {
+      "id": "media-1793717608649",
+      "name": "Untitled_design.png",
+      "url": "/uploads/1793717608646-Untitled_design.png",
+      "size": "2.0 MB",
+      "type": "image/png",
+      "category": "Images",
+      "uploadedAt": "2026-11-03"
+    },
+    {
+      "id": "media-1793634058992",
+      "name": "536189417_1749907465666822_3703976577834262077_n.jpg",
+      "url": "/uploads/1793634058973-536189417_1749907465666822_3703976577834262077_n.jpg",
+      "size": "7 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-02"
+    },
+    {
+      "id": "media-1793632777556",
+      "name": "480805665_1620006805323556_5689341543282535993_n.jpg",
+      "url": "/uploads/1793632777539-480805665_1620006805323556_5689341543282535993_n.jpg",
+      "size": "13 KB",
+      "type": "image/jpeg",
+      "category": "Images",
+      "uploadedAt": "2026-11-02"
+    },
+    {
+      "id": "media-collage-photo-1",
+      "name": "Engineering Lab",
+      "url": "/assets/WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "size": "1.2 MB",
+      "type": "image/jpeg",
+      "category": "Collage & Photos",
+      "uploadedAt": "2026-11-01"
+    },
+    {
+      "id": "media-collage-photo-2",
+      "name": "Agile Sprints",
+      "url": "/assets/photo-1531482615713-2afd69097998",
+      "size": "1.2 MB",
+      "type": "image/jpeg",
+      "category": "Collage & Photos",
+      "uploadedAt": "2026-11-01"
+    },
+    {
+      "id": "media-collage-photo-3",
+      "name": "Md Tarek Rahaman",
+      "url": "/assets/profile-1-scaled.png",
+      "size": "1.2 MB",
+      "type": "image/jpeg",
+      "category": "Collage & Photos",
+      "uploadedAt": "2026-11-01"
+    },
+    {
+      "id": "media-collage-photo-4",
+      "name": "NSDA Level-3 Certified",
+      "url": "/assets/1786250627196.jpg.jpeg",
+      "size": "1.2 MB",
+      "type": "image/jpeg",
+      "category": "Collage & Photos",
+      "uploadedAt": "2026-11-01"
+    },
+    {
+      "id": "media-collage-photo-5",
+      "name": "Strategic Impact",
+      "url": "/assets/photo-1507679799987-c73779587ccf",
+      "size": "1.2 MB",
+      "type": "image/jpeg",
+      "category": "Collage & Photos",
+      "uploadedAt": "2026-11-01"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "Sarah Jenkins",
+      "role": "Founder & Creative Director",
+      "company": "Nexus Design Studio, UK",
+      "quote": "Tarek completely revolutionized our online platform. His deep proficiency in high-performance Laravel architecture and sleek UI engineering delivered a 40% jump in conversions within our first quarter. Truly one of the finest developers I have partnered with.",
+      "avatar": "/uploads/1793873437337-images__2_.jpg",
+      "rating": 5
+    },
+    {
+      "id": "test-2",
+      "name": "David Al-Mansoor",
+      "role": "Operations Executive",
+      "company": "Desert Sands Enterprise, UAE",
+      "quote": "Unbelievable attention to speed optimization and clean code. Tarek transformed our sluggish WordPress WooCommerce store into a sub-second loading powerhouse. Professional, communicative, and exceptionally skilled.",
+      "avatar": "/uploads/1793873440904-images__1_.jpg",
+      "rating": 5
+    },
+    {
+      "id": "test-3",
+      "name": "Michael Chen",
+      "role": "Head of Product",
+      "company": "Aura Commerce, Singapore",
+      "quote": "From custom plugin engineering to complex database optimization, Tarek handled every technical challenge seamlessly. His proactive communication and modern coding practices gave us total confidence throughout the launch.",
+      "avatar": "/uploads/1793873443952-images.jpg",
+      "rating": 5
+    },
+    {
+      "id": "review-1793873466671",
+      "name": "New Client",
+      "role": "Managing Director",
+      "company": "Global Tech Enterprise",
+      "quote": "Tarek delivered exceptional quality and solved our complex web challenges seamlessly.",
+      "avatar": "/assets/profile-1-scaled.png",
+      "rating": 5
+    }
+  ],
+  "processSteps": [
+    {
+      "step": "01",
+      "title": "Discovery & Architecture",
+      "description": "Deep analysis of business objectives, database modeling, and user journey mapping to establish a bulletproof roadmap.",
+      "icon": "Compass"
+    },
+    {
+      "step": "02",
+      "title": "UI/UX & Interactive Design",
+      "description": "Crafting intuitive, cyber-aesthetic, high-converting interfaces with interactive prototypes and design system precision.",
+      "icon": "Layers"
+    },
+    {
+      "step": "03",
+      "title": "Engineered Development",
+      "description": "Writing modern, modular, clean code using Laravel, WordPress core standards, and modern TypeScript frameworks.",
+      "icon": "Code2"
+    },
+    {
+      "step": "04",
+      "title": "Speed & SEO Optimization",
+      "description": "Fine-tuning database queries, asset caching, sub-second TTFB, and responsive cross-browser performance.",
+      "icon": "Zap"
+    },
+    {
+      "step": "05",
+      "title": "Rigorous QA & Security",
+      "description": "Exhaustive testing against edge cases, responsive audits, SSL configuration, and enterprise-grade vulnerability hardening.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "step": "06",
+      "title": "Seamless Launch & Scale",
+      "description": "Production server deployment, automated backups, DNS routing, and ongoing technical guidance for sustained growth.",
+      "icon": "Rocket"
+    }
+  ],
+  "clientBrands": [
+    {
+      "name": "Naogaon Mango Bazar",
+      "label": "Naogaon Mango Bazar",
+      "industry": "E-Commerce Fruit Hub",
+      "iconName": "Mango",
+      "active": true,
+      "showName": true,
+      "fitMode": "contain",
+      "logoSize": "md"
+    },
+    {
+      "name": "Ruporia Jewelry",
+      "label": "Ruporia Jewelry",
+      "industry": "Luxury Jewelry E-Commerce",
+      "iconName": "Gem",
+      "active": true,
+      "showName": true,
+      "fitMode": "contain",
+      "logoSize": "md"
+    },
+    {
+      "name": "Desert Sands UAE",
+      "label": "Desert Sands UAE",
+      "industry": "Enterprise Hospitality",
+      "iconName": "Hotel",
+      "active": true,
+      "showName": true,
+      "fitMode": "contain",
+      "logoSize": "md"
+    },
+    {
+      "name": "Suns Luxury Group",
+      "label": "Suns Luxury Group",
+      "industry": "Fashion Retail",
+      "iconName": "Crown",
+      "active": true,
+      "showName": true,
+      "fitMode": "contain",
+      "logoSize": "md"
+    },
+    {
+      "name": "Apex Learning Studio",
+      "label": "Apex Learning Studio",
+      "industry": "EdTech Solutions",
+      "iconName": "GraduationCap",
+      "active": true,
+      "showName": true,
+      "fitMode": "contain",
+      "logoSize": "md"
+    },
+    {
+      "name": "Nordic Tech Stack",
+      "label": "Nordic Tech Stack",
+      "industry": "SaaS Platform",
+      "iconName": "Code2",
+      "active": true,
+      "showName": true,
+      "fitMode": "contain",
+      "logoSize": "md"
+    }
+  ],
+  "futureVision": {
+    "title": "Pioneering Next-Gen Web & Machine Learning Architectures",
+    "statement": "Driven by an insatiable curiosity for algorithmic excellence, my trajectory is anchored in merging full-stack mastery with production Machine Learning systems. Combining clean software engineering principles with intelligent data models to build software that not only functions seamlessly, but anticipates user behavior.",
+    "focusAreas": [
+      "Full-Stack Web Architecture",
+      "Enterprise Laravel Systems",
+      "Machine Learning Integration",
+      "Data Science & Predictive Models",
+      "High-Speed WooCommerce",
+      "Modern Distributed Systems",
+      "Cybernetic UI/UX Paradigms",
+      "Algorithmic Problem Solving"
+    ]
+  },
+  "faqs": [
+    {
+      "number": "01",
+      "question": "How much does a website cost?",
+      "answer": "The project cost depends on the website type, required features, design complexity, and overall requirements. Contact me with your project details for a customized quote."
+    },
+    {
+      "number": "02",
+      "question": "How long does a website project take?",
+      "answer": "The timeline depends on the complexity of the project. Simple websites can be completed faster, while advanced web applications may require additional development and testing time."
+    },
+    {
+      "number": "03",
+      "question": "Do you provide website maintenance and support?",
+      "answer": "Yes. Website maintenance, updates, optimization, and ongoing support can be provided based on your project requirements."
+    },
+    {
+      "number": "04",
+      "question": "Can I update my website myself?",
+      "answer": "Yes. For CMS-based websites such as WordPress, you can easily manage content and products. Guidance can also be provided after project delivery."
+    },
+    {
+      "number": "05",
+      "question": "Do you provide hosting and domain support?",
+      "answer": "Yes. I can help with domain setup, hosting configuration, website deployment, SSL, and other essential technical setup."
+    },
+    {
+      "number": "06",
+      "question": "How can I start a project with you?",
+      "answer": "Simply contact me with your project idea and requirements. We can discuss the details, features, timeline, and the best solution for your business."
+    }
+  ],
+  "servicesWhyWorkWithMe": {
+    "badge": "WHY WORK WITH ME",
+    "title": "Engineered For Impact & High Performance",
+    "subtitle": "Why Work With Me",
+    "description": "Every project combines modern engineering standards, responsive aesthetics, high-speed delivery, and transparent client communication.",
+    "cards": [
+      {
+        "badge": "⚡ FAST DELIVERY",
+        "title": "Fast & Reliable Delivery",
+        "description": "Projects are carefully planned and delivered efficiently without compromising quality.",
+        "icon": "Zap",
+        "gradient": "from-[#00d2ff] to-[#0088ff]"
+      },
+      {
+        "badge": "💎 PREMIUM QUALITY",
+        "title": "Premium Quality",
+        "description": "Modern, clean, responsive, and professionally engineered digital experiences.",
+        "icon": "Gem",
+        "gradient": "from-[#00f0ff] to-[#818cf8]"
+      },
+      {
+        "badge": "💬 CLEAR COMMUNICATION",
+        "title": "Clear Communication",
+        "description": "Stay informed throughout the project with transparent and professional communication.",
+        "icon": "MessageSquare",
+        "gradient": "from-[#818cf8] to-[#c084fc]"
+      },
+      {
+        "badge": "🚀 PERFORMANCE FOCUSED",
+        "title": "Performance Focused",
+        "description": "Fast, optimized, scalable websites built for excellent user experience.",
+        "icon": "Rocket",
+        "gradient": "from-[#00d2ff] to-[#a855f7]"
+      }
+    ]
+  },
+  "servicesHero": {
+    "badge": "BESPOKE WEB SOLUTIONS // ARCHITECTURE & ENGINEERING",
+    "title": "Bespoke Web Solutions Crafted for Exponential Growth",
+    "subtitle": "High-Performance Engineering",
+    "description": "From high-converting E-Commerce architectures and custom WordPress systems to robust Laravel backends and bespoke web applications built for speed and longevity.",
+    "featureTags": [
+      "100% Bespoke Code",
+      "Sub-Second Response",
+      "WooCommerce & E-Commerce",
+      "Laravel Custom Backends",
+      "WordPress Theme & Plugin Core"
+    ],
+    "highlightText": "Exponential Growth",
+    "showBadge": true
+  },
+  "servicesCta": {
+    "badge": "START YOUR PROJECT TODAY",
+    "title": "Ready to take your digital platform to the next level?",
+    "subtitle": "Let's Build Something Exceptional",
+    "description": "Reach out today to discuss custom requirements, pricing estimates, and project timelines. Let's build a solution tailored precisely for your business.",
+    "primaryButtonText": "Let's Get Started",
+    "primaryButtonUrl": "/contact",
+    "secondaryButtonText": "View Recent Work",
+    "secondaryButtonUrl": "/portfolio"
+  },
+  "aboutCta": {
+    "badge": "LET'S WORK TOGETHER",
+    "title": "Have a Project in Mind?",
+    "subtitle": "Let's Collaborate",
+    "description": "Let's turn your ideas into a modern, high-performing digital experience.",
+    "primaryButtonText": "Start a Project",
+    "primaryButtonUrl": "/contact",
+    "secondaryButtonText": "Contact Me",
+    "secondaryButtonUrl": "/contact"
+  },
+  "aboutGallery": [
+    {
+      "id": "about-gallery-1",
+      "src": "/uploads/1793852666552-WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+      "alt": "Workstation Lab",
+      "label": "Workstation Lab",
+      "title": "Workstation Lab",
+      "description": "Development workstation lab for building high-performance web systems."
+    },
+    {
+      "id": "about-gallery-2",
+      "src": "/uploads/1793852713758-1786250627196.jpg.jpeg",
+      "alt": "NSDA Govt. Certificate",
+      "label": "NSDA Certified",
+      "title": "NSDA Certified",
+      "description": "National Skills Certificate in Web Design and Development for Freelancing (Level-3)."
+    },
+    {
+      "id": "about-gallery-3",
+      "src": "/uploads/1793852719513-Screenshot-2026-09-17-032619.png",
+      "alt": "Agile Team Collaboration",
+      "label": "Wordpress Cetified",
+      "title": "Wordpress Cetified",
+      "description": "Sprint planning and agile collaboration on high-impact projects."
+    }
+  ],
+  "aboutBio": {
+    "badge": "BIOGRAPHY & EXPERTISE",
+    "headingPrefix": "Turning complex problems into ",
+    "highlightedText": "elegant, scalable",
+    "headingSuffix": ", and revenue-generating digital products.",
+    "highlightStyle": "cyan",
+    "firstParagraph": "Software Engineering undergraduate at Daffodil International University (Data Science Major), NSDA-certified web engineer, and specialist in custom WordPress, WooCommerce, and Laravel systems with over 200+ commercial deployments.",
+    "secondParagraph": "Over the course of 200+ commercial web deployments, I have honed deep expertise in custom theme and plugin engineering, WooCommerce sales architecture, Laravel backends, database query optimization, and technical speed enhancement.",
+    "badges": [
+      {
+        "id": "bio-badge-1",
+        "label": "DIU Software Eng.",
+        "icon": "GraduationCap"
+      },
+      {
+        "id": "bio-badge-2",
+        "label": "Data Science Major",
+        "icon": "Layers"
+      },
+      {
+        "id": "bio-badge-3",
+        "label": "NSDA Certified",
+        "icon": "Award"
+      },
+      {
+        "id": "bio-badge-4",
+        "label": "120+ Deployments",
+        "icon": "Briefcase"
+      }
+    ]
+  },
+  "aboutHero": {
+    "visible": true,
+    "orbitEffectsVisible": true,
+    "badge": {
+      "text": "ABOUT ME // ACADEMIC & ENGINEERING JOURNEY",
+      "icon": "Sparkles",
+      "visible": true
+    },
+    "heading": {
+      "prefix": "Turning Ideas into ",
+      "highlight1": "Digital ",
+      "highlight2": "Experiences",
+      "suffix": "",
+      "highlightStyle": "gradient"
+    },
+    "paragraphs": [
+      {
+        "id": "hero-para-1",
+        "text": "Software Engineering undergraduate at Daffodil International University (Data Science Major), NSDA-certified web engineer, and specialist in custom WordPress, WooCommerce, and Laravel systems with over 120+ commercial deployments.",
+        "visible": true
+      }
+    ],
+    "techBadges": [
+      {
+        "id": "tech-badge-1",
+        "label": "Full-Stack",
+        "icon": "Sparkles",
+        "visible": true
+      },
+      {
+        "id": "tech-badge-2",
+        "label": "Laravel",
+        "icon": "Sparkles",
+        "visible": true
+      },
+      {
+        "id": "tech-badge-3",
+        "label": "Data Science",
+        "icon": "Sparkles",
+        "visible": true
+      },
+      {
+        "id": "tech-badge-4",
+        "label": "Wordpress",
+        "icon": "Sparkles",
+        "visible": true
+      },
+      {
+        "id": "tech-badge-5",
+        "label": "WooCommerce",
+        "icon": "Sparkles",
+        "visible": true
+      }
+    ],
+    "stats": [
+      {
+        "id": "hero-stat-1",
+        "value": "100",
+        "suffix": "+",
+        "label": "Happy Clients",
+        "icon": "User",
+        "visible": true
+      },
+      {
+        "id": "hero-stat-2",
+        "value": "120",
+        "suffix": "+",
+        "label": "Projects Completed",
+        "icon": "Layers",
+        "visible": true
+      },
+      {
+        "id": "hero-stat-3",
+        "value": "B.Sc. SWE",
+        "suffix": "",
+        "label": "DIU Data Science",
+        "icon": "GraduationCap",
+        "visible": true
+      }
+    ],
+    "buttons": [
+      {
+        "id": "hero-btn-1",
+        "text": "Download Resume (PDF)",
+        "url": "/assets/Tarek-Rahaman-Professional-CV-Resume.pdf",
+        "icon": "Download",
+        "isDownload": true,
+        "downloadName": "Tarek-Rahaman-CV.pdf",
+        "visible": true
+      },
+      {
+        "id": "hero-btn-2",
+        "text": "Let's Connect",
+        "url": "/contact",
+        "icon": "Send",
+        "openInNewTab": false,
+        "visible": true
+      }
+    ]
+  },
+  "aboutProfileCard": {
+    "visible": true,
+    "imageUrl": "/uploads/1793719116653-Untitled_design.png",
+    "altText": "Md Tarek Rahaman - Creative Web Developer",
+    "verifiedBadgeText": "Verified",
+    "verifiedBadgeIcon": "ShieldCheck",
+    "showVerifiedBadge": true,
+    "eyebrowText": "Md Tarek Rahaman",
+    "title": "Full-Stack & WordPress Specialist",
+    "location": "Mirpur-1, Dhaka, Bangladesh",
+    "locationIcon": "MapPin"
+  },
+  "aboutSectionsVisibility": {
+    "hero": true,
+    "profileGrid": true,
+    "profileCard": true,
+    "gallery": true,
+    "bioStory": true,
+    "process": true,
+    "techStack": true,
+    "education": true,
+    "certifications": true,
+    "vision": true,
+    "cta": true,
+    "stats": true
+  },
+  "aboutStatsSection": {
+    "visible": true,
+    "badge": "PROVEN TRACK RECORD",
+    "title": "Milestones by the",
+    "highlightText": "Numbers",
+    "description": "Key metrics demonstrating consistent commercial delivery and enterprise speed."
+  },
+  "aboutProcessHeader": {
+    "badge": "HOW I WORK",
+    "title": "My Development",
+    "highlightText": "Process",
+    "description": "A structured approach to turning ideas into high-quality digital experiences."
+  },
+  "aboutTechHeader": {
+    "badge": "TECH ARSENAL",
+    "title": "Technologies I",
+    "highlightText": "Work With",
+    "description": "To build and scale generative & high-reliability systems."
+  },
+  "servicesTechList": [
+    {
+      "name": "Laravel",
+      "brand": "laravel",
+      "category": "Full-Stack Backend"
+    },
+    {
+      "name": "PHP",
+      "brand": "php",
+      "category": "Backend Engine"
+    },
+    {
+      "name": "Python",
+      "brand": "python",
+      "category": "Data & ML Scripting"
+    },
+    {
+      "name": "WordPress",
+      "brand": "wordpress",
+      "category": "CMS Architecture"
+    },
+    {
+      "name": "WooCommerce",
+      "brand": "woocommerce",
+      "category": "E-Commerce Core"
+    },
+    {
+      "name": "React.js",
+      "brand": "react",
+      "category": "Modern Frontend"
+    },
+    {
+      "name": "JavaScript",
+      "brand": "javascript",
+      "category": "Core Dynamic Logic"
+    },
+    {
+      "name": "HTML5",
+      "brand": "html5",
+      "category": "Semantic Markup"
+    },
+    {
+      "name": "CSS3",
+      "brand": "css3",
+      "category": "Styling & Motion"
+    },
+    {
+      "name": "Tailwind CSS",
+      "brand": "tailwind",
+      "category": "Utility-First CSS"
+    },
+    {
+      "name": "MySQL",
+      "brand": "mysql",
+      "category": "Relational Database"
+    },
+    {
+      "name": "Git",
+      "brand": "git",
+      "category": "Version Control"
+    },
+    {
+      "name": "GitHub",
+      "brand": "github",
+      "category": "Collaboration & CI"
+    },
+    {
+      "name": "Figma",
+      "brand": "figma",
+      "category": "UI/UX & Prototyping"
+    }
+  ],
+  "homeJourneyHeader": {
+    "badge": "MOMENTS & MILESTONES",
+    "badgeIcon": "Sparkles",
+    "headingLine1": "Crafting Digital Solutions,",
+    "headingLine2": "Living The Journey",
+    "headingStyle": "cyan",
+    "description": "A glimpse of my work, achievements, and learning journey.",
+    "showSmileArc": true
+  },
+  "homeServicesHeader": {
+    "badge": "SERVICES",
+    "badgeIcon": "Wrench",
+    "title": "My",
+    "highlightText": "Services",
+    "description": "High-performance digital solutions crafted with precision and care.",
+    "visible": true
+  },
+  "homeSkillsHeader": {
+    "badge": "MY TECH STACK",
+    "badgeIcon": "Sparkles",
+    "title": "My Tech Skills",
+    "highlightText": "Tech Skills",
+    "description": "A modern look at my technical skills and proficiency levels.",
+    "visible": true
+  },
+  "homeToolsHeader": {
+    "badge": "WORKFLOW & PLATFORMS",
+    "badgeIcon": "Wrench",
+    "title": "Tools & Technologies",
+    "highlightText": "Technologies",
+    "description": "The tools and platforms I use to design and develop digital solutions.",
+    "visible": true
+  },
+  "homePortfolioSettings": {
+    "badge": "Parallax Hero Style",
+    "badgeNumber": "08",
+    "title": "My",
+    "subtitle": "Prpject",
+    "description": "Websites, applications and digital solutions crafted with passion and precision.",
+    "buttonText": "Explore Projects",
+    "buttonUrl": "/project",
+    "buttonIcon": "ChevronDown",
+    "stats": [
+      {
+        "id": "p-stat-1",
+        "value": "120+",
+        "label": "Projects",
+        "icon": "FolderGit2",
+        "visible": true
+      },
+      {
+        "id": "p-stat-2",
+        "value": "5+",
+        "label": "Categories",
+        "icon": "Layers",
+        "visible": true
+      },
+      {
+        "id": "p-stat-3",
+        "value": "100%",
+        "label": "Client Satisfaction",
+        "icon": "Award",
+        "visible": true
+      }
+    ]
+  },
+  "homeWorkflowHeader": {
+    "badge": "WHY US",
+    "badgeIcon": "Zap",
+    "title": "Why Choose",
+    "highlightText": "Us",
+    "description": "Providing intelligent, streamlined, and robust solutions that drive exceptional value and elevate your organization.",
+    "visible": true
+  },
+  "homeAboutSettings": {
+    "badge": "ABOUT ME",
+    "title": "Turning Ideas into",
+    "subtitle": "Digital Experiences",
+    "description": "DIU Software Engineering student (Data Science) and a passionate WordPress & E-Commerce developer.",
+    "name": "Tarek Rahaman",
+    "role": "Creative Web Developer",
+    "workstationImage": "/assets/WhatsApp-Image-2026-08-06-at-4.49.13-PM.jpeg",
+    "workstationAlt": "Tarek Rahaman - Workstation Lab",
+    "certificateImage": "/uploads/1793861865069-WhatsApp_Image_2026-11-04_at_5.46.07_PM__2_.jpeg",
+    "certificateAlt": "NSDA National Skills Certificate Level-3",
+    "portraitImage": "/assets/profile-1-scaled.png",
+    "portraitAlt": "Tarek Rahaman - Creative Web Developer",
+    "techBadges": [
+      {
+        "id": "ab-badge-1",
+        "label": "WordPress",
+        "visible": true
+      },
+      {
+        "id": "ab-badge-2",
+        "label": "WooCommerce",
+        "visible": true
+      },
+      {
+        "id": "ab-badge-3",
+        "label": "Laravel",
+        "visible": true
+      },
+      {
+        "id": "ab-badge-4",
+        "label": "Web Development",
+        "visible": true
+      }
+    ],
+    "stats": [
+      {
+        "id": "ab-stat-1",
+        "value": "100+",
+        "label": "Happy Clients",
+        "icon": "User",
+        "colorTheme": "cyan",
+        "visible": true
+      },
+      {
+        "id": "ab-stat-2",
+        "value": "120",
+        "label": "Projects Completed",
+        "icon": "Layers",
+        "colorTheme": "purple",
+        "visible": true
+      }
+    ]
+  },
+  "homeTestimonialsHeader": {
+    "badge": "TESTIMONIALS",
+    "badgeIcon": "Quote",
+    "title": "Good Things You Have Heard About",
+    "highlightText": "Tarek Rahaman",
+    "description": "Here's what our Amazing Clients have to say till now about our web design and development services.",
+    "subtitle": "Tarek Rahaman",
+    "visible": true
+  },
+  "homeStatsSettings": {
+    "badge": "TRACK RECORD & IMPACT",
+    "title": "My Journey in ",
+    "highlightText": "Numbers",
+    "description": "Quantifiable milestones reflecting client satisfaction, deployed architectures, and continuous technical growth.",
+    "globeTitle": "Active Worldwide Deployments",
+    "globeDeploymentMetric": "15+ Countries",
+    "globeCountries": [
+      {
+        "id": "gc-1",
+        "name": "USA",
+        "badgeColor": "#0066ff",
+        "visible": true
+      },
+      {
+        "id": "gc-2",
+        "name": "UK & Europe",
+        "badgeColor": "#0066ff",
+        "visible": true
+      },
+      {
+        "id": "gc-3",
+        "name": "UAE",
+        "badgeColor": "#0052cc",
+        "visible": true
+      },
+      {
+        "id": "gc-4",
+        "name": "Canada",
+        "badgeColor": "#0b1b3d",
+        "visible": true
+      },
+      {
+        "id": "gc-5",
+        "name": "Bangladesh",
+        "badgeColor": "#0066ff",
+        "visible": true
+      },
+      {
+        "id": "gc-6",
+        "name": "Australia",
+        "badgeColor": "#0066ff",
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  "homeClientsHeader": {
+    "badge": "OUR CLIENTS",
+    "badgeIcon": "Globe",
+    "title": "Client That We Have",
+    "highlightText": "Worked With.",
+    "subtitle": "Worked With.",
+    "description": "We have collaborated with these amazing brands and clients to create stunning web solutions and products.",
+    "visible": true
+  },
+  "homeCtaSettings": {
+    "badge": "LET'S WORK TOGETHER",
+    "title": "Have a Vision? Let's Turn It Into Reality.",
+    "description": "Available for freelance projects, WordPress developments, and full-stack contracts.",
+    "buttonText": "LET'S TALK PROJECTS",
+    "buttonLink": "/contact",
+    "bgImageUrl": "/assets/developer-workstation-hd.jpg",
+    "showMountainContour": true,
+    "codePillText": "await deployVision()",
+    "showCodePill": true,
+    "monogramText": "TR",
+    "showMonogram": true,
+    "metricPillText": "Production Live:",
+    "metricPillValue": "100%",
+    "showMetricPill": true,
+    "visible": true
+  },
+  "homeThemeSettings": {
+    "primaryAccent": "#00d2ff",
+    "secondaryAccent": "#00f0ff",
+    "enable3dBackground": true,
+    "enableWaveDividers": true
+  },
+  "servicesWorkflowHeader": {
+    "badge": "ENGINEERING BLUEPRINT",
+    "badgeIcon": "Sparkles",
+    "title": "My Development",
+    "highlightText": "Process",
+    "description": "A disciplined 6-phase engineering lifecycle ensuring every build is secure, performant, and delivered on schedule."
+  },
+  "servicesTechHeader": {
+    "badge": "ENGINEERING ARSENAL",
+    "badgeIcon": "Sparkles",
+    "title": "Technologies I",
+    "highlightText": "Work With",
+    "description": "Battle-tested modern stacks, frameworks, CMS platforms, and databases used to construct resilient digital solutions."
+  },
+  "servicesFaqHeader": {
+    "badge": "CLIENT QUESTIONS & ANSWERS",
+    "badgeIcon": "Sparkles",
+    "title": "Frequently Asked",
+    "highlightText": "Questions",
+    "description": "Clear answers to common questions about timelines, technology selection, project pricing, and post-launch maintenance."
+  },
+  "servicesSeoSettings": {
+    "metaTitle": "Services | Tarek Rahaman - Full-Stack Web Developer",
+    "metaDescription": "Explore Tarek Rahaman's luxury web development services: Laravel Web Applications, High-Converting E-Commerce, Custom WordPress Solutions, and Landing Pages.",
+    "metaKeywords": "Tarek Rahaman, Services, Web Development, WordPress, WooCommerce, Laravel, E-Commerce, Speed Optimization",
+    "canonicalUrl": "https://tarekrahaman.com/services",
+    "ogTitle": "Bespoke Web Solutions Crafted for Exponential Growth | Tarek Rahaman",
+    "ogDescription": "High-performance digital engineering services tailored for modern businesses.",
+    "ogImageUrl": "/assets/profile-1-scaled.png",
+    "twitterImageUrl": "/assets/profile-1-scaled.png"
+  },
+  "servicesDesignSettings": {
+    "show3dBackground": true,
+    "showWaveDividers": true,
+    "enableAnimations": true,
+    "primaryAccentColor": "#00d2ff",
+    "secondaryAccentColor": "#818cf8",
+    "sectionOrder": [
+      "hero",
+      "services",
+      "whyUs",
+      "process",
+      "tech",
+      "faq",
+      "cta"
+    ],
+    "sectionVisibility": {
+      "hero": true,
+      "services": true,
+      "whyUs": true,
+      "process": true,
+      "tech": true,
+      "faq": true,
+      "cta": true,
+      "footer": true
+    }
+  },
+  "skillsHero": {
+    "badge": "PROFESSIONAL SKILLS // TECHNICAL ARCHITECTURE",
+    "badgeIcon": "Sparkles",
+    "showBadge": true,
+    "title": "Technical Level &",
+    "titleHighlight1": "Programming",
+    "titleHighlight2": "Expertise",
+    "description": "Software Engineering undergraduate at Daffodil International University with practical commercial mastery across backend systems, database performance, modern frontend frameworks, and bespoke WordPress architectures.",
+    "tags": [
+      {
+        "id": "sht-1",
+        "name": "Full-Stack Web Systems",
+        "enabled": true
+      },
+      {
+        "id": "sht-2",
+        "name": "Database Query Optimization",
+        "enabled": true
+      },
+      {
+        "id": "sht-3",
+        "name": "WordPress Theme & Plugin Core",
+        "enabled": true
+      },
+      {
+        "id": "sht-4",
+        "name": "Laravel MVC & REST APIs",
+        "enabled": true
+      },
+      {
+        "id": "sht-5",
+        "name": "Data Science & Python",
+        "enabled": true
+      }
+    ],
+    "stats": [
+      {
+        "id": "shs-1",
+        "icon": "Code2",
+        "number": "15",
+        "suffix": "+",
+        "label": "Core Technologies",
+        "enabled": true
+      },
+      {
+        "id": "shs-2",
+        "icon": "Cpu",
+        "number": "98",
+        "suffix": "%",
+        "label": "Max Proficiency",
+        "enabled": true
+      },
+      {
+        "id": "shs-3",
+        "icon": "Database",
+        "number": "200",
+        "suffix": "+",
+        "label": "Deployments",
+        "enabled": true
+      }
+    ],
+    "visualCards": [
+      {
+        "id": "shvc-1",
+        "name": "Laravel",
+        "level": 92,
+        "logoName": "Laravel",
+        "isCenter": false,
+        "enabled": true
+      },
+      {
+        "id": "shvc-2",
+        "name": "WordPress / PHP",
+        "level": 98,
+        "logoName": "WordPress",
+        "isCenter": true,
+        "enabled": true
+      },
+      {
+        "id": "shvc-3",
+        "name": "React / Next.js",
+        "level": 90,
+        "logoName": "React",
+        "isCenter": false,
+        "enabled": true
+      }
+    ],
+    "visible": true
+  },
+  "skillsCodingHeader": {
+    "badge": "DISCIPLINE 01",
+    "badgeIcon": "Terminal",
+    "title": "Coding & Programming",
+    "highlightText": "Languages",
+    "description": "Core programming fundamentals, frontend engineering, and server-side systems.",
+    "visible": true
+  },
+  "skillsToolsHeader": {
+    "badge": "DISCIPLINE 02",
+    "badgeIcon": "Terminal",
+    "title": "Tools &",
+    "highlightText": "Technologies",
+    "description": "Industry-standard development tools, workflows, design software, and platforms.",
+    "visible": true
+  },
+  "skillsCoreHeader": {
+    "badge": "CORE EXPERTISE",
+    "badgeIcon": "Sparkles",
+    "title": "My Professional Strengths &",
+    "highlightText": "Core Expertise",
+    "description": "Delivering robust, scalable, and modern digital solutions across the full stack with commercial reliability.",
+    "visible": true
+  },
+  "skillsLearningHeader": {
+    "badge": "CONTINUOUS GROWTH",
+    "badgeIcon": "Sparkles",
+    "title": "Currently Learning &",
+    "highlightText": "Exploring",
+    "description": "Continuously expanding my technical knowledge and preparing for the next generation of digital solutions.",
+    "visible": true
+  },
+  "skillsRoadmapHeader": {
+    "badge": "MY JOURNEY",
+    "badgeIcon": "Sparkles",
+    "title": "Professional Growth",
+    "highlightText": "Roadmap",
+    "description": "A continuous evolution of engineering mastery, from web fundamentals to full-stack systems and intelligent data science.",
+    "visible": true
+  },
+  "skillsSeoSettings": {
+    "title": "Professional Skills & Tech Stack | Tarek Rahaman",
+    "description": "Explore Tarek Rahaman's technical expertise in WordPress, PHP, Laravel, MySQL, JavaScript, Python, C, Java, React, and UI/UX engineering.",
+    "keywords": "Tarek Rahaman, Skills, Technologies, WordPress Developer, Laravel Developer, PHP, MySQL, React, Full-Stack",
+    "canonicalUrl": "https://tarekrahaman.com/skills",
+    "ogTitle": "Technical Level & Programming Expertise | Tarek Rahaman",
+    "ogDescription": "Comprehensive technology stack spanning full-stack web development, Laravel backend architecture, and custom WordPress systems.",
+    "ogImage": "/assets/profile-1-scaled.png"
+  },
+  "skillsDesignSettings": {
+    "show3dBackground": true,
+    "showWaveDividers": true,
+    "enableAnimations": true,
+    "primaryAccentColor": "#00d2ff",
+    "secondaryAccentColor": "#818cf8",
+    "sectionOrder": [
+      "hero",
+      "coding",
+      "tools",
+      "strengths",
+      "learning",
+      "roadmap"
+    ],
+    "sectionVisibility": {
+      "hero": true,
+      "coding": true,
+      "tools": true,
+      "strengths": true,
+      "learning": true,
+      "roadmap": true
+    }
+  },
+  "projectCategories": [
+    {
+      "id": "cat-all",
+      "label": "ALL WEBSITES",
+      "value": "all",
+      "description": "All portfolio projects"
+    },
+    {
+      "id": "cat-ecom",
+      "label": "E-COMMERCE",
+      "value": "ecommerce",
+      "description": "Online storefronts & WooCommerce"
+    },
+    {
+      "id": "cat-biz",
+      "label": "BUSINESS & AGENCY",
+      "value": "business",
+      "description": "Corporate websites & agency portals"
+    },
+    {
+      "id": "cat-edu",
+      "label": "EDUCATION",
+      "value": "education",
+      "description": "LMS & educational academies"
+    },
+    {
+      "id": "cat-port",
+      "label": "PERSONAL PORTFOLIO",
+      "value": "portfolio",
+      "description": "Personal branding & creative showcases"
+    }
+  ],
+  "portfolioPageSettings": {
+    "heroBadge": "PORTFOLIO ARCHIVE // PRODUCTION DEPLOYMENTS",
+    "heroBadgeIcon": "Sparkles",
+    "heroHeading": "Crafted with Precision & Purpose",
+    "heroHeadingHighlight1": "Precision & ",
+    "heroHeadingHighlight2": "Purpose",
+    "heroHeadingLineBreak": false,
+    "heroSubtitle": "Production Deployments",
+    "heroDescription": "Explore our complete archive of live commercial websites across high-converting e-commerce, corporate agency portals, educational LMS platforms, and bespoke web applications.",
+    "heroTags": [
+      {
+        "id": "ht-1",
+        "text": "WordPress Core",
+        "icon": "Code2",
+        "enabled": true
+      },
+      {
+        "id": "ht-2",
+        "text": "WooCommerce",
+        "icon": "ShoppingBag",
+        "enabled": true
+      },
+      {
+        "id": "ht-3",
+        "text": "Laravel Systems",
+        "icon": "Layers",
+        "enabled": true
+      },
+      {
+        "id": "ht-4",
+        "text": "Next.js",
+        "icon": "Zap",
+        "enabled": true
+      },
+      {
+        "id": "ht-5",
+        "text": "Full-Stack",
+        "icon": "Globe",
+        "enabled": true
+      }
+    ],
+    "heroStats": [
+      {
+        "id": "hs-1",
+        "number": "100+",
+        "label": "Live Websites",
+        "icon": "Globe",
+        "enabled": true
+      },
+      {
+        "id": "hs-2",
+        "number": "4+",
+        "label": "Core Industries",
+        "icon": "Layers",
+        "enabled": true
+      },
+      {
+        "id": "hs-3",
+        "number": "100%",
+        "label": "Responsive & Fast",
+        "icon": "CheckCircle2",
+        "enabled": true
+      }
+    ],
+    "heroFeatured": {
+      "title": "E-Commerce Website",
+      "category": "E-COMMERCE",
+      "liveUrl": "https://tereasnusuae.ae/",
+      "image": "/assets/Screenshot-2026-09-04-024440.png",
+      "imageAlt": "Featured Production Project",
+      "imageCaption": "Tereasnus UAE E-Commerce Platform",
+      "badge": "FEATURED SPOTLIGHT",
+      "lockText": "tereasnusuae.ae",
+      "enabled": true
+    },
+    "searchPlaceholder": "Search projects by title, category, or technology stack...",
+    "searchIcon": "Search",
+    "searchEnabled": true,
+    "activeFilterLabel": "Active Filter",
+    "loadMoreButtonText": "Load More Projects",
+    "loadMoreRemainingTemplate": "({remaining} REMAINING)",
+    "loadMoreButtonIcon": "ChevronDown",
+    "initialProjectsCount": 9,
+    "projectsPerPage": 6,
+    "loadMoreEnabled": true,
+    "showHero": true,
+    "showSearch": true,
+    "showFilters": true,
+    "showProjectGrid": true,
+    "showLoadMore": true,
+    "showWaveDividers": true,
+    "showAmbientGlow": true,
+    "accentColor": "#00d2ff",
+    "cardAccent": "#090f1e",
+    "seoTitle": "Portfolio | Tarek Rahaman - Web Developer & Full-Stack Architect",
+    "seoDesc": "Explore live commercial web projects, e-commerce stores, Laravel web apps, and custom WordPress deployments crafted by Tarek Rahaman.",
+    "keywords": "Tarek Rahaman, Portfolio, Projects, Web Development, WooCommerce, WordPress, Laravel, Live Websites",
+    "canonicalUrl": "https://tarekrahaman.com/portfolio",
+    "ogTitle": "Portfolio Archive // Production Deployments | Tarek Rahaman",
+    "ogDescription": "Explore our complete archive of live commercial websites across high-converting e-commerce, corporate agency portals, and full-stack web applications.",
+    "ogImage": "/assets/Screenshot-2026-09-04-024440.png",
+    "featuredTags": [
+      "WordPress Core",
+      "WooCommerce",
+      "Laravel Systems",
+      "Next.js",
+      "Full-Stack"
+    ],
+    "seo": {
+      "title": "Featured Projects & Client Portfolios | Tarek Rahaman",
+      "description": "Explore Tarek Rahaman's featured portfolio of high-impact web applications, client solutions, e-commerce platforms, and scalable digital architectures.",
+      "keywords": "Tarek Rahaman, Portfolio, Web Development, WordPress, Laravel, Next.js, E-commerce, Case Studies",
+      "canonicalUrl": "https://tarekrahaman.me/portfolio",
+      "ogTitle": "Featured Projects & Client Portfolios | Tarek Rahaman",
+      "ogDescription": "A curated collection of live commercial websites, e-commerce systems, and full-stack web platforms engineered by Tarek Rahaman.",
+      "ogImage": "/assets/profile-1-scaled.png"
+    }
+  },
+  "contactHero": {
+    "badge": "LET'S WORK TOGETHER // DIRECT INQUIRIES",
+    "badgeIcon": "Sparkles",
+    "heading": "Have a Vision? Let's Turn It Into Digital Reality.",
+    "headingHighlight1": "Vision?",
+    "headingHighlight2": "Digital Reality.",
+    "headingLineBreak": false,
+    "highlightedWords": "Exceptional",
+    "description": "Have a project in mind, need full-stack architecture, or want to modernize your current web presence? Reach out directly via form, email, or WhatsApp.",
+    "backgroundUrl": "/assets/developer-workstation-hd.jpg",
+    "backgroundAlt": "Developer Workstation & Setup",
+    "backgroundOverlay": true,
+    "backgroundOverlayStrength": 50,
+    "showMountainRidge": true,
+    "showNeonGlowLine": true,
+    "showAmbientGlow": true,
+    "availabilityText": "Available for Freelance & Full-Time Remote Roles",
+    "quickChannelsTitle": "FAST CONTACT CHANNELS"
+  },
+  "quickContactChannels": [
+    {
+      "id": "qc-1",
+      "label": "WhatsApp Instant:",
+      "icon": "MessageCircle",
+      "value": "01733119269",
+      "link": "https://wa.me/8801733119269?text=Hi%20Tarek,%20I%20want%20to%20talk%20about%20a%20project.",
+      "colorClass": "text-emerald-400",
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "qc-2",
+      "label": "Direct Email:",
+      "icon": "Mail",
+      "value": "tarekrahaman186@gmail.com",
+      "link": "mailto:tarekrahaman186@gmail.com",
+      "colorClass": "text-[#00d2ff]",
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "qc-3",
+      "label": "Working Days:",
+      "icon": "Clock",
+      "value": "Sat – Thu (10am–8pm)",
+      "link": "",
+      "colorClass": "text-white",
+      "order": 3,
+      "enabled": true
+    }
+  ],
+  "contactAvailabilityBadges": [
+    {
+      "id": "ab-1",
+      "text": "Available for New Projects",
+      "icon": "Sparkles",
+      "accentStyle": "emerald",
+      "showPing": true,
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "ab-2",
+      "text": "Typical Response < 2 Hours",
+      "icon": "Clock",
+      "accentStyle": "cyan",
+      "showPing": false,
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "ab-3",
+      "text": "Worldwide Remote Delivery",
+      "icon": "Globe",
+      "accentStyle": "purple",
+      "showPing": false,
+      "order": 3,
+      "enabled": true
+    }
+  ],
+  "directReachHeader": {
+    "badge": "DIRECT REACH",
+    "heading": "Get In Touch Directly",
+    "description": "Available for freelance projects, full-stack website design, e-commerce stores, and software development collaborations."
+  },
+  "directContactCards": [
+    {
+      "id": "dcc-1",
+      "icon": "MessageCircle",
+      "badge": "WhatsApp (Instant Reply)",
+      "badgeColor": "emerald",
+      "value": "01733119269",
+      "secondaryInfo": "",
+      "link": "https://wa.me/8801733119269?text=Hi%20Tarek,%20I%20want%20to%20talk%20about%20a%20project.",
+      "isLink": true,
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "dcc-2",
+      "icon": "Mail",
+      "badge": "Primary Email",
+      "badgeColor": "cyan",
+      "value": "tarekrahaman186@gmail.com",
+      "secondaryInfo": "Alt: wde3716@gmail.com",
+      "link": "mailto:tarekrahaman186@gmail.com",
+      "isLink": true,
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "dcc-3",
+      "icon": "Phone",
+      "badge": "Direct Call",
+      "badgeColor": "cyan",
+      "value": "01733119269",
+      "secondaryInfo": "Alt: 01840019449",
+      "link": "tel:01733119269",
+      "isLink": true,
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "dcc-4",
+      "icon": "MapPin",
+      "badge": "Office Location",
+      "badgeColor": "purple",
+      "value": "Mirpur-1, Dhaka, Bangladesh",
+      "secondaryInfo": "",
+      "link": "https://maps.google.com/?q=Mirpur-1,Dhaka,Bangladesh",
+      "isLink": false,
+      "order": 4,
+      "enabled": true
+    }
+  ],
+  "officeWorkingHours": {
+    "officeLocation": "Mirpur-1, Dhaka, Bangladesh",
+    "locationIcon": "MapPin",
+    "locationUrl": "https://maps.google.com/?q=Mirpur-1,Dhaka,Bangladesh",
+    "workingHours": "Sat - Thu (10:00 AM - 8:00 PM)",
+    "workingHoursIcon": "Clock",
+    "additionalOfficeInfo": "Available for scheduled in-person and Google Meet architectural consultations.",
+    "enabled": true
+  },
+  "contactFormSettings": {
+    "heading": "Send a Direct Message",
+    "description": "Fill out the form below and I will get back to you within 24 hours.",
+    "recipientEmail": "tarekrahaman186@gmail.com",
+    "submitButtonText": "Send Message",
+    "submitButtonIcon": "Send",
+    "submittingText": "Sending...",
+    "successHeading": "Message Sent Successfully!",
+    "successMessage": "Thank you! Your message has been sent successfully. I will get back to you shortly.",
+    "resetButtonText": "Send Another Message",
+    "errorMessage": "Something went wrong sending your message. Please reach out directly via WhatsApp or email.",
+    "fields": [
+      {
+        "id": "f-name",
+        "name": "name",
+        "label": "Your Name *",
+        "placeholder": "e.g. John Doe",
+        "type": "text",
+        "required": true,
+        "halfWidth": true,
+        "enabled": true,
+        "order": 1
+      },
+      {
+        "id": "f-email",
+        "name": "email",
+        "label": "Your Email *",
+        "placeholder": "john@example.com",
+        "type": "email",
+        "required": true,
+        "halfWidth": true,
+        "enabled": true,
+        "order": 2
+      },
+      {
+        "id": "f-phone",
+        "name": "phone",
+        "label": "Phone Number",
+        "placeholder": "+880 1XXX XXXXXX",
+        "type": "tel",
+        "required": false,
+        "halfWidth": true,
+        "enabled": true,
+        "order": 3
+      },
+      {
+        "id": "f-subject",
+        "name": "subject",
+        "label": "Subject / Project Type",
+        "placeholder": "e.g. WooCommerce E-Commerce Store",
+        "type": "text",
+        "required": false,
+        "halfWidth": true,
+        "enabled": true,
+        "order": 4
+      },
+      {
+        "id": "f-message",
+        "name": "message",
+        "label": "Message *",
+        "placeholder": "Describe your project, timeline, or requirements...",
+        "type": "textarea",
+        "required": true,
+        "halfWidth": false,
+        "enabled": true,
+        "order": 5
+      }
+    ],
+    "fieldLabels": {
+      "nameLabel": "Your Full Name",
+      "emailLabel": "Your Email Address",
+      "phoneLabel": "Phone / WhatsApp",
+      "subjectLabel": "Project Subject",
+      "messageLabel": "Project Details & Message"
+    }
+  },
+  "resumeSettings": {
+    "title": "Download Professional Curriculum Vitae",
+    "description": "Detailed breakdown of commercial engineering experience, educational background, verified certifications, and technical proficiencies.",
+    "fileUrl": "/assets/Tarek-Rahaman-Professional-CV-Resume.pdf",
+    "buttonLabel": "DOWNLOAD RESUME (PDF)",
+    "buttonIcon": "Download",
+    "downloadFileName": "Tarek-Rahaman-CV.pdf",
+    "enabled": true
+  },
+  "contactVisibility": {
+    "showHero": true,
+    "showQuickChannels": true,
+    "showAvailabilityBadges": true,
+    "showDirectReach": true,
+    "showContactForm": true,
+    "showOfficeHours": true,
+    "showResumeCard": true,
+    "showWaveDivider": true,
+    "showMountainRidge": true,
+    "showNeonGlowLine": true,
+    "showAmbientGlow": true,
+    "accentColor": "#00d2ff"
+  },
+  "contactSeo": {
+    "title": "Contact & Direct Consultation | Tarek Rahaman",
+    "description": "Get in touch with Tarek Rahaman for web development projects, custom WordPress architectures, WooCommerce systems, and Laravel applications.",
+    "keywords": "Contact Tarek Rahaman, Hire Web Developer Bangladesh, WordPress Consultant Dhaka, Full-Stack Engineer, Laravel Freelancer",
+    "canonicalUrl": "https://tarekrahaman.me/contact",
+    "ogTitle": "Contact & Direct Consultation | Tarek Rahaman",
+    "ogDescription": "Available for freelance contracts, full-stack website design, e-commerce stores, and enterprise digital solutions.",
+    "ogImage": "/assets/developer-workstation-hd.jpg"
+  },
+  "skillsCoreExpertise": [
+    {
+      "number": "01",
+      "title": "Full-Stack Web Development",
+      "icon": "Globe",
+      "badge": "FRONTEND & BACKEND",
+      "highlights": [
+        "Modern responsive web applications",
+        "Frontend + backend integration",
+        "Performance-focused development"
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Laravel & PHP Development",
+      "icon": "Server",
+      "badge": "BACKEND ARCHITECTURE",
+      "highlights": [
+        "Custom web applications",
+        "Database architecture",
+        "Secure and scalable systems"
+      ]
+    },
+    {
+      "number": "03",
+      "title": "WordPress & WooCommerce",
+      "icon": "ShoppingBag",
+      "badge": "CMS & E-COMMERCE",
+      "highlights": [
+        "Professional business websites",
+        "E-commerce development",
+        "Elementor & custom solutions"
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Database & Data Solutions",
+      "icon": "Database",
+      "badge": "DATA ARCHITECTURE",
+      "highlights": [
+        "MySQL database management",
+        "Data organization",
+        "Analytics and reporting fundamentals"
+      ]
+    }
+  ],
+  "skillsLearning": [
+    {
+      "icon": "Terminal",
+      "emoji": "🐍",
+      "title": "Python for Data Science",
+      "description": "Mastering NumPy, Pandas, Matplotlib, and exploratory data analysis workflows for real-world datasets.",
+      "status": "Learning / Exploring",
+      "tag": "DATA SCIENCE",
+      "gradient": "from-[#00d2ff] to-[#38bdf8]"
+    },
+    {
+      "icon": "BarChart3",
+      "emoji": "📊",
+      "title": "Data Analytics & Power BI",
+      "description": "Transforming complex datasets into actionable business intelligence dashboards and KPI visual models.",
+      "status": "Learning / Exploring",
+      "tag": "BUSINESS INTELLIGENCE",
+      "gradient": "from-[#38bdf8] to-[#818cf8]"
+    },
+    {
+      "icon": "Brain",
+      "emoji": "🧠",
+      "title": "Machine Learning Fundamentals",
+      "description": "Studying supervised learning algorithms, regression models, classification techniques, and neural networks.",
+      "status": "Learning / Exploring",
+      "tag": "ARTIFICIAL INTELLIGENCE",
+      "gradient": "from-[#818cf8] to-[#c084fc]"
+    },
+    {
+      "icon": "Layers",
+      "emoji": "⚙️",
+      "title": "Advanced Software Architecture",
+      "description": "Deepening knowledge in clean architecture, microservices patterns, API scalability, and system design.",
+      "status": "Learning / Exploring",
+      "tag": "SYSTEM DESIGN",
+      "gradient": "from-[#c084fc] to-[#00d2ff]"
+    }
+  ],
+  "skillsRoadmap": [
+    {
+      "year": "2024",
+      "title": "Web Development Foundations",
+      "badge": "FOUNDATIONS",
+      "techList": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress"
+      ],
+      "description": "Mastered semantic markup, modern responsive UI principles, DOM scripting, and custom WordPress setups.",
+      "isCurrent": false,
+      "isFuture": false
+    },
+    {
+      "year": "2025",
+      "title": "Professional Web Solutions",
+      "badge": "BACKEND & COMMERCE",
+      "techList": [
+        "WooCommerce",
+        "PHP",
+        "Laravel",
+        "Database Development"
+      ],
+      "description": "Engineered scalable e-commerce stores, custom PHP backends, relational database schemas, and commercial workflows.",
+      "isCurrent": false,
+      "isFuture": false
+    },
+    {
+      "year": "2026",
+      "title": "Full-Stack Development",
+      "badge": "CURRENT FOCUS",
+      "techList": [
+        "Modern Web Applications",
+        "Advanced Development",
+        "Professional Client Projects"
+      ],
+      "description": "Delivering high-converting production platforms, custom Laravel systems, RESTful APIs, and full-stack solutions.",
+      "isCurrent": true,
+      "isFuture": false
+    },
+    {
+      "year": "FUTURE",
+      "title": "Data Science & AI",
+      "badge": "NEXT HORIZON",
+      "techList": [
+        "Python",
+        "Data Analytics",
+        "Machine Learning",
+        "Intelligent Systems"
+      ],
+      "description": "Expanding into intelligent data-driven applications, predictive machine learning models, and automated AI systems.",
+      "isCurrent": false,
+      "isFuture": true
+    }
+  ],
+  "footerSettings": {
+    "logoText": "TR",
+    "brandName": "Tarek Rahaman",
+    "description": "Full-Stack Web Developer, Laravel Specialist & WordPress Architect engineering high-performing, accessible, and conversion-focused digital systems.",
+    "copyrightText": "© 2026 Tarek Rahaman. All Rights Reserved.",
+    "links": [
+      {
+        "name": "Home",
+        "href": "/",
+        "enabled": true
+      },
+      {
+        "name": "About",
+        "href": "/about",
+        "enabled": true
+      },
+      {
+        "name": "Services",
+        "href": "/services",
+        "enabled": true
+      },
+      {
+        "name": "Skills",
+        "href": "/skills",
+        "enabled": true
+      },
+      {
+        "name": "Portfolio",
+        "href": "/portfolio",
+        "enabled": true
+      },
+      {
+        "name": "Contact",
+        "href": "/contact",
+        "enabled": true
+      }
+    ],
+    "infoLinks": [
+      {
+        "name": "Privacy Policy",
+        "href": "#",
+        "enabled": true
+      },
+      {
+        "name": "Terms of Service",
+        "href": "#",
+        "enabled": true
+      },
+      {
+        "name": "Security Overview",
+        "href": "#",
+        "enabled": true
+      }
+    ]
+  }
+}
